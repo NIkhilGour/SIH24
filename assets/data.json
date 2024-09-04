@@ -1,0 +1,1424 @@
+{
+    "_collections_": {
+      "herbalPlants": {
+        "documentID1": {
+          "hindiName": "Adusa/Vasaka",
+          "englishName": "Malabar Nut",
+          "botanicalName": "Adhatoda vasica Nees",
+          "uses": ["Cough", "Asthma", "Bronchitis"],
+          "imageUrls": [
+            "https://example.com/images/adusa1.jpg",
+            "https://example.com/images/adusa2.jpg",
+            "https://example.com/images/adusa3.jpg",
+            "https://example.com/images/adusa4.jpg",
+            "https://example.com/images/adusa5.jpg"
+          ],
+          "description": "Adusa, also known as Malabar Nut, is used in treating cough, asthma, and bronchitis. It is a herb that grows in tropical regions and prefers full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Clay", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Evergreen"]
+        },
+        "documentID2": {
+          "hindiName": "Ananas",
+          "englishName": "Pineapple",
+          "botanicalName": "Ananas comosus",
+          "uses": ["Sore Throat", "Diabetes", "Heart Disease", "Obesity"],
+          "imageUrls": [
+            "https://example.com/images/ananas1.jpg",
+            "https://example.com/images/ananas2.jpg",
+            "https://example.com/images/ananas3.jpg",
+            "https://example.com/images/ananas4.jpg",
+            "https://example.com/images/ananas5.jpg"
+          ],
+          "description": "Pineapple is a tropical fruit known for its high vitamin C content. It helps in treating sore throat, diabetes, heart disease, and obesity.",
+          "type": "Fruit",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Edible", "Fruit"]
+        },
+        "documentID3": {
+          "hindiName": "Ashwagandha",
+          "englishName": "Winter Cherry",
+          "botanicalName": "Withania somnifera",
+          "uses": ["Stress Relief", "Immunity", "Energy"],
+          "imageUrls": [
+            "https://example.com/images/ashwagandha1.jpg",
+            "https://example.com/images/ashwagandha2.jpg",
+            "https://example.com/images/ashwagandha3.jpg",
+            "https://example.com/images/ashwagandha4.jpg",
+            "https://example.com/images/ashwagandha5.jpg"
+          ],
+          "description": "Ashwagandha is a powerful adaptogen known for its stress-relieving and energy-boosting properties. It thrives in well-drained, sandy soil under full sun.",
+          "type": "Herb",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Adaptogen"]
+        },
+        "documentID4": {
+          "hindiName": "Neem",
+          "englishName": "Neem",
+          "botanicalName": "Azadirachta indica",
+          "uses": ["Skin Care", "Blood Purification", "Immunity"],
+          "imageUrls": [
+            "https://example.com/images/neem1.jpg",
+            "https://example.com/images/neem2.jpg",
+            "https://example.com/images/neem3.jpg",
+            "https://example.com/images/neem4.jpg",
+            "https://example.com/images/neem5.jpg"
+          ],
+          "description": "Neem is a versatile medicinal plant known for its antibacterial, antifungal, and anti-inflammatory properties. It is widely used in skincare and for boosting immunity.",
+          "type": "Tree",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Evergreen"]
+        },
+        "documentID5": {
+          "hindiName": "Brahmi",
+          "englishName": "Bacopa",
+          "botanicalName": "Bacopa monnieri",
+          "uses": ["Memory", "Cognitive Function", "Anxiety"],
+          "imageUrls": [
+            "https://example.com/images/brahmi1.jpg",
+            "https://example.com/images/brahmi2.jpg",
+            "https://example.com/images/brahmi3.jpg",
+            "https://example.com/images/brahmi4.jpg",
+            "https://example.com/images/brahmi5.jpg"
+          ],
+          "description": "Brahmi is an herb known for enhancing memory, cognitive function, and reducing anxiety. It grows well in damp, marshy conditions with partial shade.",
+          "type": "Herb",
+          "soilType": ["Clay", "Loamy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "High",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Cognitive"]
+        },
+        "documentID6": {
+          "hindiName": "Giloy",
+          "englishName": "Heart-leaved Moonseed",
+          "botanicalName": "Tinospora cordifolia",
+          "uses": ["Immunity", "Fever", "Diabetes"],
+          "imageUrls": [
+            "https://example.com/images/giloy1.jpg",
+            "https://example.com/images/giloy2.jpg",
+            "https://example.com/images/giloy3.jpg",
+            "https://example.com/images/giloy4.jpg",
+            "https://example.com/images/giloy5.jpg"
+          ],
+          "description": "Giloy is a well-known herb in Ayurveda for boosting immunity and treating chronic fevers and diabetes. It prefers moderate watering and full sunlight.",
+          "type": "Climber",
+          "soilType": ["Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Climber"]
+        },
+        "documentID7": {
+          "hindiName": "Tulsi",
+          "englishName": "Holy Basil",
+          "botanicalName": "Ocimum sanctum",
+          "uses": ["Cough", "Cold", "Immunity"],
+          "imageUrls": [
+            "https://example.com/images/tulsi1.jpg",
+            "https://example.com/images/tulsi2.jpg",
+            "https://example.com/images/tulsi3.jpg",
+            "https://example.com/images/tulsi4.jpg",
+            "https://example.com/images/tulsi5.jpg"
+          ],
+          "description": "Tulsi, also known as Holy Basil, is a sacred plant in India known for its medicinal properties, especially in treating respiratory issues and boosting immunity.",
+          "type": "Herb",
+          "soilType": ["Loamy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "All",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Aromatic"]
+        },
+        "documentID8": {
+          "hindiName": "Aloe Vera",
+          "englishName": "Aloe Vera",
+          "botanicalName": "Aloe barbadensis miller",
+          "uses": ["Skin Care", "Digestion", "Wound Healing"],
+          "imageUrls": [
+            "https://example.com/images/aloe_vera1.jpg",
+            "https://example.com/images/aloe_vera2.jpg",
+            "https://example.com/images/aloe_vera3.jpg",
+            "https://example.com/images/aloe_vera4.jpg",
+            "https://example.com/images/aloe_vera5.jpg"
+          ],
+          "description": "Aloe Vera is a succulent plant known for its healing properties, particularly in skincare and digestive health. It grows best in well-drained, sandy soil with full sun.",
+          "type": "Succulent",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Succulent"]
+        },
+        "documentID9": {
+          "hindiName": "Arjuna",
+          "englishName": "Arjuna",
+          "botanicalName": "Terminalia arjuna",
+          "uses": ["Heart Health", "Blood Pressure", "Cholesterol"],
+          "imageUrls": [
+            "https://example.com/images/arjuna1.jpg",
+            "https://example.com/images/arjuna2.jpg",
+            "https://example.com/images/arjuna3.jpg",
+            "https://example.com/images/arjuna4.jpg",
+            "https://example.com/images/arjuna5.jpg"
+          ],
+          "description": "Arjuna is a tree known for its strong heart-protective properties, often used in traditional medicine to manage blood pressure and cholesterol levels.",
+          "type": "Tree",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Tree"]
+        },
+        "documentID10": {
+          "hindiName": "Methi",
+          "englishName": "Fenugreek",
+          "botanicalName": "Trigonella foenum-graecum",
+          "uses": ["Digestion", "Diabetes", "Heart Health"],
+          "imageUrls": [
+            "https://example.com/images/methi1.jpg",
+            "https://example.com/images/methi2.jpg",
+            "https://example.com/images/methi3.jpg",
+            "https://example.com/images/methi4.jpg",
+            "https://example.com/images/methi5.jpg"
+          ],
+          "description": "Fenugreek is an herb widely used in cooking and traditional medicine for its digestive and blood sugar-lowering benefits.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Temperate",
+          "tags": ["Medicinal", "Culinary"]
+        },
+        "documentID11": {
+          "hindiName": "Shatavari",
+          "englishName": "Asparagus",
+          "botanicalName": "Asparagus racemosus",
+          "uses": ["Women's Health", "Immunity", "Digestive Health"],
+          "imageUrls": [
+            "https://example.com/images/shatavari1.jpg",
+            "https://example.com/images/shatavari2.jpg",
+            "https://example.com/images/shatavari3.jpg",
+            "https://example.com/images/shatavari4.jpg",
+            "https://example.com/images/shatavari5.jpg"
+          ],
+          "description": "Shatavari is a rejuvenating herb in Ayurveda, known for supporting women's health, boosting immunity, and promoting digestion.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Rejuvenating"]
+        },
+        "documentID12": {
+          "hindiName": "Gudmar",
+          "englishName": "Gymnema",
+          "botanicalName": "Gymnema sylvestre",
+          "uses": ["Diabetes", "Weight Loss", "Cholesterol"],
+          "imageUrls": [
+            "https://example.com/images/gudmar1.jpg",
+            "https://example.com/images/gudmar2.jpg",
+            "https://example.com/images/gudmar3.jpg",
+            "https://example.com/images/gudmar4.jpg",
+            "https://example.com/images/gudmar5.jpg"
+          ],
+          "description": "Gudmar is a climbing plant known for its anti-diabetic properties and its ability to reduce sugar cravings. It grows well in tropical climates with full sun.",
+          "type": "Climber",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Climber"]
+        },
+        "documentID13": {
+          "hindiName": "Jatamansi",
+          "englishName": "Spikenard",
+          "botanicalName": "Nardostachys jatamansi",
+          "uses": ["Stress Relief", "Sleep", "Hair Health"],
+          "imageUrls": [
+            "https://example.com/images/jatamansi1.jpg",
+            "https://example.com/images/jatamansi2.jpg",
+            "https://example.com/images/jatamansi3.jpg",
+            "https://example.com/images/jatamansi4.jpg",
+            "https://example.com/images/jatamansi5.jpg"
+          ],
+          "description": "Jatamansi is an herb known for its calming effects, promoting restful sleep, and supporting hair health. It thrives in cooler, mountainous regions.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "High",
+          "season": "Monsoon",
+          "region": "Temperate",
+          "tags": ["Medicinal", "Aromatic"]
+        },
+        "documentID14": {
+          "hindiName": "Guggul",
+          "englishName": "Indian Bdellium",
+          "botanicalName": "Commiphora wightii",
+          "uses": ["Cholesterol", "Arthritis", "Skin Disorders"],
+          "imageUrls": [
+            "https://example.com/images/guggul1.jpg",
+            "https://example.com/images/guggul2.jpg",
+            "https://example.com/images/guggul3.jpg",
+            "https://example.com/images/guggul4.jpg",
+            "https://example.com/images/guggul5.jpg"
+          ],
+          "description": "Guggul is a resin obtained from the Indian Bdellium tree, used in Ayurvedic medicine to treat high cholesterol, arthritis, and skin disorders.",
+          "type": "Resin",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Resin"]
+        },
+        "documentID15": {
+          "hindiName": "Amla",
+          "englishName": "Indian Gooseberry",
+          "botanicalName": "Phyllanthus emblica",
+          "uses": ["Immunity", "Digestion", "Skin Health"],
+          "imageUrls": [
+            "https://example.com/images/amla1.jpg",
+            "https://example.com/images/amla2.jpg",
+            "https://example.com/images/amla3.jpg",
+            "https://example.com/images/amla4.jpg",
+            "https://example.com/images/amla5.jpg"
+          ],
+          "description": "Amla is a powerful antioxidant-rich fruit that supports immunity, aids digestion, and enhances skin health. It grows best in well-drained soil with full sun.",
+          "type": "Fruit",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Antioxidant"]
+        },
+        "documentID16": {
+          "hindiName": "Bhumi Amla",
+          "englishName": "Stonebreaker",
+          "botanicalName": "Phyllanthus niruri",
+          "uses": ["Liver Health", "Kidney Stones", "Jaundice"],
+          "imageUrls": [
+            "https://example.com/images/bhumi_amla1.jpg",
+            "https://example.com/images/bhumi_amla2.jpg",
+            "https://example.com/images/bhumi_amla3.jpg",
+            "https://example.com/images/bhumi_amla4.jpg",
+            "https://example.com/images/bhumi_amla5.jpg"
+          ],
+          "description": "Bhumi Amla is a small herb used in traditional medicine for its liver-protective and kidney stone-reducing properties.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Hepatic"]
+        },
+        "documentID17": {
+          "hindiName": "Kalmegh",
+          "englishName": "Green Chiretta",
+          "botanicalName": "Andrographis paniculata",
+          "uses": ["Fever", "Liver Health", "Immunity"],
+          "imageUrls": [
+            "https://example.com/images/kalmegh1.jpg",
+            "https://example.com/images/kalmegh2.jpg",
+            "https://example.com/images/kalmegh3.jpg",
+            "https://example.com/images/kalmegh4.jpg",
+            "https://example.com/images/kalmegh5.jpg"
+          ],
+          "description": "Kalmegh is a bitter herb known for its potent antiviral and liver-protective properties, commonly used in treating fever and boosting immunity.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Bitter"]
+        },
+        "documentID18": {
+          "hindiName": "Haritaki",
+          "englishName": "Chebulic Myrobalan",
+          "botanicalName": "Terminalia chebula",
+          "uses": ["Digestion", "Detoxification", "Cough"],
+          "imageUrls": [
+            "https://example.com/images/haritaki1.jpg",
+            "https://example.com/images/haritaki2.jpg",
+            "https://example.com/images/haritaki3.jpg",
+            "https://example.com/images/haritaki4.jpg",
+            "https://example.com/images/haritaki5.jpg"
+          ],
+          "description": "Haritaki is a revered herb in Ayurveda for its detoxifying and digestive benefits. It is often used in various herbal formulations for its health-enhancing properties.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Subtropical",
+          "tags": ["Medicinal", "Detox"]
+        },
+        "documentID19": {
+          "hindiName": "Arjuna",
+          "englishName": "Arjuna Tree",
+          "botanicalName": "Terminalia arjuna",
+          "uses": ["Heart Health", "Blood Pressure", "Liver Health"],
+          "imageUrls": [
+            "https://example.com/images/arjuna1.jpg",
+            "https://example.com/images/arjuna2.jpg",
+            "https://example.com/images/arjuna3.jpg",
+            "https://example.com/images/arjuna4.jpg",
+            "https://example.com/images/arjuna5.jpg"
+          ],
+          "description": "The Arjuna tree is renowned in Ayurvedic medicine for its heart-strengthening and blood pressure-lowering properties. It grows well in loamy soil with full sun.",
+          "type": "Tree",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Subtropical",
+          "tags": ["Medicinal", "Heart"]
+        },
+        "documentID20": {
+          "hindiName": "Chirata",
+          "englishName": "Swertia",
+          "botanicalName": "Swertia chirata",
+          "uses": ["Fever", "Digestive Disorders", "Diabetes"],
+          "imageUrls": [
+            "https://example.com/images/chirata1.jpg",
+            "https://example.com/images/chirata2.jpg",
+            "https://example.com/images/chirata3.jpg",
+            "https://example.com/images/chirata4.jpg",
+            "https://example.com/images/chirata5.jpg"
+          ],
+          "description": "Chirata is a bitter herb known for its powerful antipyretic and digestive properties, often used in treating fever and digestive disorders.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Temperate",
+          "tags": ["Medicinal", "Bitter"]
+        }
+      },
+
+      
+        "documentID21": {
+          "hindiName": "Neem",
+          "englishName": "Neem Tree",
+          "botanicalName": "Azadirachta indica",
+          "uses": ["Skin Health", "Immunity", "Insect Repellent"],
+          "imageUrls": [
+            "https://example.com/images/neem1.jpg",
+            "https://example.com/images/neem2.jpg",
+            "https://example.com/images/neem3.jpg",
+            "https://example.com/images/neem4.jpg",
+            "https://example.com/images/neem5.jpg"
+          ],
+          "description": "Neem is a versatile tree known for its medicinal properties. It is widely used in traditional medicine for skin disorders, boosting immunity, and as a natural insect repellent.",
+          "type": "Tree",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Antiseptic"]
+        },
+        "documentID22": {
+          "hindiName": "Tulsi",
+          "englishName": "Holy Basil",
+          "botanicalName": "Ocimum tenuiflorum",
+          "uses": ["Respiratory Health", "Immunity", "Stress Relief"],
+          "imageUrls": [
+            "https://example.com/images/tulsi1.jpg",
+            "https://example.com/images/tulsi2.jpg",
+            "https://example.com/images/tulsi3.jpg",
+            "https://example.com/images/tulsi4.jpg",
+            "https://example.com/images/tulsi5.jpg"
+          ],
+          "description": "Tulsi is a sacred herb in Indian culture, revered for its ability to promote respiratory health, boost immunity, and relieve stress. It thrives in full sun and well-drained soil.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Sacred"]
+        },
+        "documentID23": {
+          "hindiName": "Ashwagandha",
+          "englishName": "Winter Cherry",
+          "botanicalName": "Withania somnifera",
+          "uses": ["Stress Relief", "Energy Boost", "Immunity"],
+          "imageUrls": [
+            "https://example.com/images/ashwagandha1.jpg",
+            "https://example.com/images/ashwagandha2.jpg",
+            "https://example.com/images/ashwagandha3.jpg",
+            "https://example.com/images/ashwagandha4.jpg",
+            "https://example.com/images/ashwagandha5.jpg"
+          ],
+          "description": "Ashwagandha is a powerful adaptogenic herb known for its ability to reduce stress, boost energy, and enhance immunity. It grows best in loamy soil with full sun.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Adaptogenic"]
+        },
+        "documentID24": {
+          "hindiName": "Gokhru",
+          "englishName": "Puncture Vine",
+          "botanicalName": "Tribulus terrestris",
+          "uses": ["Kidney Health", "Libido", "Muscle Strength"],
+          "imageUrls": [
+            "https://example.com/images/gokhru1.jpg",
+            "https://example.com/images/gokhru2.jpg",
+            "https://example.com/images/gokhru3.jpg",
+            "https://example.com/images/gokhru4.jpg",
+            "https://example.com/images/gokhru5.jpg"
+          ],
+          "description": "Gokhru is a herb known for its benefits in supporting kidney health, enhancing libido, and improving muscle strength. It grows in sandy soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Tonic"]
+        },
+        "documentID25": {
+          "hindiName": "Manjistha",
+          "englishName": "Indian Madder",
+          "botanicalName": "Rubia cordifolia",
+          "uses": ["Skin Health", "Blood Purification", "Detoxification"],
+          "imageUrls": [
+            "https://example.com/images/manjistha1.jpg",
+            "https://example.com/images/manjistha2.jpg",
+            "https://example.com/images/manjistha3.jpg",
+            "https://example.com/images/manjistha4.jpg",
+            "https://example.com/images/manjistha5.jpg"
+          ],
+          "description": "Manjistha is a well-known herb in Ayurveda for its powerful blood-purifying and detoxifying properties. It is commonly used to promote clear and healthy skin.",
+          "type": "Climber",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Subtropical",
+          "tags": ["Medicinal", "Detox"]
+        },
+        "documentID26": {
+          "hindiName": "Giloy",
+          "englishName": "Heart-leaved Moonseed",
+          "botanicalName": "Tinospora cordifolia",
+          "uses": ["Immunity", "Fever", "Detoxification"],
+          "imageUrls": [
+            "https://example.com/images/giloy1.jpg",
+            "https://example.com/images/giloy2.jpg",
+            "https://example.com/images/giloy3.jpg",
+            "https://example.com/images/giloy4.jpg",
+            "https://example.com/images/giloy5.jpg"
+          ],
+          "description": "Giloy is a highly revered herb in Ayurveda, known for its immune-boosting, fever-reducing, and detoxifying properties. It grows as a climber and thrives in loamy soil.",
+          "type": "Climber",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Immunity"]
+        },
+        "documentID27": {
+          "hindiName": "Brahmi",
+          "englishName": "Water Hyssop",
+          "botanicalName": "Bacopa monnieri",
+          "uses": ["Memory", "Stress Relief", "Brain Health"],
+          "imageUrls": [
+            "https://example.com/images/brahmi1.jpg",
+            "https://example.com/images/brahmi2.jpg",
+            "https://example.com/images/brahmi3.jpg",
+            "https://example.com/images/brahmi4.jpg",
+            "https://example.com/images/brahmi5.jpg"
+          ],
+          "description": "Brahmi is a traditional herb known for its brain-boosting properties, enhancing memory, reducing stress, and promoting overall brain health. It grows well in wet, marshy areas.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "High",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Nootropic"]
+        },
+        "documentID28": {
+          "hindiName": "Nagarmotha",
+          "englishName": "Nut Grass",
+          "botanicalName": "Cyperus rotundus",
+          "uses": ["Digestion", "Weight Loss", "Skin Health"],
+          "imageUrls": [
+            "https://example.com/images/nagarmotha1.jpg",
+            "https://example.com/images/nagarmotha2.jpg",
+            "https://example.com/images/nagarmotha3.jpg",
+            "https://example.com/images/nagarmotha4.jpg",
+            "https://example.com/images/nagarmotha5.jpg"
+          ],
+          "description": "Nagarmotha is a herb known for its digestive and weight loss benefits, as well as its use in enhancing skin health. It thrives in sandy soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Digestive"]
+        },
+        "documentID29": {
+          "hindiName": "Mulethi",
+          "englishName": "Licorice",
+          "botanicalName": "Glycyrrhiza glabra",
+          "uses": ["Respiratory Health", "Digestion", "Immunity"],
+          "imageUrls": [
+            "https://example.com/images/mulethi1.jpg",
+            "https://example.com/images/mulethi2.jpg",
+            "https://example.com/images/mulethi3.jpg",
+            "https://example.com/images/mulethi4.jpg",
+            "https://example.com/images/mulethi5.jpg"
+          ],
+          "description": "Mulethi, or Licorice, is a popular herb known for its soothing effects on the respiratory system, aiding in digestion, and boosting immunity. It prefers loamy soil with partial shade.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Clay"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Temperate",
+          "tags": ["Medicinal", "Soothing"]
+        },
+        "documentID30": {
+          "hindiName": "Kalmegh",
+          "englishName": "King of Bitters",
+          "botanicalName": "Andrographis paniculata",
+          "uses": ["Liver Health", "Immunity", "Detoxification"],
+          "imageUrls": [
+            "https://example.com/images/kalmegh1.jpg",
+            "https://example.com/images/kalmegh2.jpg",
+            "https://example.com/images/kalmegh3.jpg",
+            "https://example.com/images/kalmegh4.jpg",
+            "https://example.com/images/kalmegh5.jpg"
+          ],
+          "description": "Kalmegh is a potent herb used in traditional medicine for liver health, boosting immunity, and detoxification. It grows well in loamy soil with partial shade.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Subtropical",
+          "tags": ["Medicinal", "Bitter"]
+        },
+
+        
+            "documentID31": {
+              "hindiName": "Shatavari",
+              "englishName": "Wild Asparagus",
+              "botanicalName": "Asparagus racemosus",
+              "uses": ["Women's Health", "Immunity", "Digestion"],
+              "imageUrls": [
+                "https://example.com/images/shatavari1.jpg",
+                "https://example.com/images/shatavari2.jpg",
+                "https://example.com/images/shatavari3.jpg",
+                "https://example.com/images/shatavari4.jpg",
+                "https://example.com/images/shatavari5.jpg"
+              ],
+              "description": "Shatavari is an adaptogenic herb known for supporting women's health, boosting immunity, and aiding digestion. It prefers sandy loam soil with partial shade.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Partial Shade",
+              "wateringFrequency": "Medium",
+              "season": "Spring",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Women's Health"]
+            },
+            "documentID32": {
+              "hindiName": "Ajwain",
+              "englishName": "Carom Seeds",
+              "botanicalName": "Trachyspermum ammi",
+              "uses": ["Digestion", "Respiratory Health", "Immunity"],
+              "imageUrls": [
+                "https://example.com/images/ajwain1.jpg",
+                "https://example.com/images/ajwain2.jpg",
+                "https://example.com/images/ajwain3.jpg",
+                "https://example.com/images/ajwain4.jpg",
+                "https://example.com/images/ajwain5.jpg"
+              ],
+              "description": "Ajwain is a well-known spice and herb used for its digestive benefits, promoting respiratory health, and boosting immunity. It thrives in loamy soil with full sun exposure.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Winter",
+              "region": "Temperate",
+              "tags": ["Medicinal", "Spice"]
+            },
+            "documentID33": {
+              "hindiName": "Moringa",
+              "englishName": "Drumstick Tree",
+              "botanicalName": "Moringa oleifera",
+              "uses": ["Nutrition", "Immunity", "Energy Boost"],
+              "imageUrls": [
+                "https://example.com/images/moringa1.jpg",
+                "https://example.com/images/moringa2.jpg",
+                "https://example.com/images/moringa3.jpg",
+                "https://example.com/images/moringa4.jpg",
+                "https://example.com/images/moringa5.jpg"
+              ],
+              "description": "Moringa, also known as the drumstick tree, is valued for its high nutritional content, ability to boost immunity, and energy-boosting properties. It grows well in sandy loam soil with full sun.",
+              "type": "Tree",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Summer",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Nutritious"]
+            },
+            "documentID34": {
+              "hindiName": "Arjuna",
+              "englishName": "Arjuna Tree",
+              "botanicalName": "Terminalia arjuna",
+              "uses": ["Heart Health", "Blood Pressure", "Liver Health"],
+              "imageUrls": [
+                "https://example.com/images/arjuna1.jpg",
+                "https://example.com/images/arjuna2.jpg",
+                "https://example.com/images/arjuna3.jpg",
+                "https://example.com/images/arjuna4.jpg",
+                "https://example.com/images/arjuna5.jpg"
+              ],
+              "description": "Arjuna is a medicinal tree known for its benefits in supporting heart health, regulating blood pressure, and improving liver function. It thrives in sandy loam soil with full sun.",
+              "type": "Tree",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Cardiac"]
+            },
+            "documentID35": {
+              "hindiName": "Jatamansi",
+              "englishName": "Spikenard",
+              "botanicalName": "Nardostachys jatamansi",
+              "uses": ["Calming", "Stress Relief", "Sleep Aid"],
+              "imageUrls": [
+                "https://example.com/images/jatamansi1.jpg",
+                "https://example.com/images/jatamansi2.jpg",
+                "https://example.com/images/jatamansi3.jpg",
+                "https://example.com/images/jatamansi4.jpg",
+                "https://example.com/images/jatamansi5.jpg"
+              ],
+              "description": "Jatamansi is an aromatic herb used for its calming effects, stress relief, and as a sleep aid. It grows in loamy soil with partial shade and requires regular watering.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Partial Shade",
+              "wateringFrequency": "Medium",
+              "season": "Winter",
+              "region": "Himalayan",
+              "tags": ["Medicinal", "Calming"]
+            },
+            "documentID36": {
+              "hindiName": "Rakta Chandana",
+              "englishName": "Red Sandalwood",
+              "botanicalName": "Pterocarpus santalinus",
+              "uses": ["Skin Care", "Anti-inflammatory", "Blood Purification"],
+              "imageUrls": [
+                "https://example.com/images/raktachandana1.jpg",
+                "https://example.com/images/raktachandana2.jpg",
+                "https://example.com/images/raktachandana3.jpg",
+                "https://example.com/images/raktachandana4.jpg",
+                "https://example.com/images/raktachandana5.jpg"
+              ],
+              "description": "Rakta Chandana, or Red Sandalwood, is a valuable tree used for its skin care benefits, anti-inflammatory properties, and blood purification. It prefers loamy soil and full sun exposure.",
+              "type": "Tree",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Skin Care"]
+            },
+            "documentID37": {
+              "hindiName": "Guggul",
+              "englishName": "Indian Bdellium",
+              "botanicalName": "Commiphora wightii",
+              "uses": ["Cholesterol Management", "Weight Loss", "Arthritis Relief"],
+              "imageUrls": [
+                "https://example.com/images/guggul1.jpg",
+                "https://example.com/images/guggul2.jpg",
+                "https://example.com/images/guggul3.jpg",
+                "https://example.com/images/guggul4.jpg",
+                "https://example.com/images/guggul5.jpg"
+              ],
+              "description": "Guggul is a resinous herb used in Ayurveda for managing cholesterol, aiding weight loss, and providing relief from arthritis. It grows well in sandy soil with full sun.",
+              "type": "Herb",
+              "soilType": ["Sandy", "Loamy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Summer",
+              "region": "Desert",
+              "tags": ["Medicinal", "Resin"]
+            },
+            "documentID38": {
+              "hindiName": "Kapur Kachri",
+              "englishName": "Spiked Ginger Lily",
+              "botanicalName": "Hedychium spicatum",
+              "uses": ["Respiratory Health", "Aromatherapy", "Digestive Aid"],
+              "imageUrls": [
+                "https://example.com/images/kapurkachri1.jpg",
+                "https://example.com/images/kapurkachri2.jpg",
+                "https://example.com/images/kapurkachri3.jpg",
+                "https://example.com/images/kapurkachri4.jpg",
+                "https://example.com/images/kapurkachri5.jpg"
+              ],
+              "description": "Kapur Kachri, also known as Spiked Ginger Lily, is an aromatic herb used for its respiratory health benefits, in aromatherapy, and as a digestive aid. It thrives in loamy soil with partial shade.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Clay"],
+              "sunlight": "Partial Shade",
+              "wateringFrequency": "High",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Aromatic"]
+            },
+            "documentID39": {
+              "hindiName": "Bhumi Amla",
+              "englishName": "Stonebreaker",
+              "botanicalName": "Phyllanthus niruri",
+              "uses": ["Liver Health", "Kidney Health", "Detoxification"],
+              "imageUrls": [
+                "https://example.com/images/bhumiamla1.jpg",
+                "https://example.com/images/bhumiamla2.jpg",
+                "https://example.com/images/bhumiamla3.jpg",
+                "https://example.com/images/bhumiamla4.jpg",
+                "https://example.com/images/bhumiamla5.jpg"
+              ],
+              "description": "Bhumi Amla is a small herb known for its benefits in supporting liver health, kidney health, and detoxification. It grows well in sandy loam soil with full sun.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Liver Health"]
+            },
+            "documentID40": {
+              "hindiName": "Shankhpushpi",
+              "englishName": "Aloeweed",
+              "botanicalName": "Convolvulus pluricaulis",
+              "uses": ["Brain Health", "Memory", "Stress Relief"],
+              "imageUrls": [
+                "https://example.com/images/shankhpushpi1.jpg",
+                "https://example.com/images/shankhpushpi2.jpg",
+                "https://example.com/images/shankhpushpi3.jpg",
+                "https://example.com/images/shankhpushpi4.jpg",
+                "https://example.com/images/shankhpushpi5.jpg"
+              ],
+              "description": "Shankhpushpi is an herb valued for its ability to enhance brain health, improve memory, and relieve stress. It thrives in loamy soil with partial shade and requires regular watering.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Partial Shade",
+              "wateringFrequency": "High",
+              "season": "Winter",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Brain Health"]
+            },
+            "documentID41": {
+              "hindiName": "Vasaka",
+              "englishName": "Malabar Nut",
+              "botanicalName": "Justicia adhatoda",
+              "uses": ["Respiratory Health", "Cough Relief", "Bronchitis"],
+              "imageUrls": [
+                "https://example.com/images/vasaka1.jpg",
+                "https://example.com/images/vasaka2.jpg",
+                "https://example.com/images/vasaka3.jpg",
+                "https://example.com/images/vasaka4.jpg",
+                "https://example.com/images/vasaka5.jpg"
+              ],
+              "description": "Vasaka is a medicinal shrub used for its benefits in treating respiratory issues, providing cough relief, and managing bronchitis. It grows well in loamy soil with full sun.",
+              "type": "Shrub",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Monsoon",
+              "region": "Subtropical",
+              "tags": ["Medicinal", "Respiratory Health"]
+            },
+            "documentID42": {
+              "hindiName": "Gokshura",
+              "englishName": "Puncture Vine",
+              "botanicalName": "Tribulus terrestris",
+              "uses": ["Kidney Health", "Urinary Health", "Reproductive Health"],
+              "imageUrls": [
+                "https://example.com/images/gokshura1.jpg",
+                "https://example.com/images/gokshura2.jpg",
+                "https://example.com/images/gokshura3.jpg",
+                "https://example.com/images/gokshura4.jpg",
+                "https://example.com/images/gokshura5.jpg"
+              ],
+              "description": "Gokshura is a herb known for its benefits in promoting kidney health, urinary health, and reproductive health. It grows well in sandy loam soil with full sun exposure.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Summer",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Kidney Health"]
+            },
+            "documentID43": {
+              "hindiName": "Brahmi",
+              "englishName": "Waterhyssop",
+              "botanicalName": "Bacopa monnieri",
+              "uses": ["Brain Health", "Memory Enhancement", "Anxiety Relief"],
+              "imageUrls": [
+                "https://example.com/images/brahmi1.jpg",
+                "https://example.com/images/brahmi2.jpg",
+                "https://example.com/images/brahmi3.jpg",
+                "https://example.com/images/brahmi4.jpg",
+                "https://example.com/images/brahmi5.jpg"
+              ],
+              "description": "Brahmi is an herb revered for its brain health benefits, particularly in enhancing memory and relieving anxiety. It thrives in wet, marshy soil with partial sun.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Clay"],
+              "sunlight": "Partial Sun",
+              "wateringFrequency": "High",
+              "season": "Summer",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Brain Health"]
+            },
+            "documentID44": {
+              "hindiName": "Punarnava",
+              "englishName": "Spreading Hogweed",
+              "botanicalName": "Boerhavia diffusa",
+              "uses": ["Kidney Health", "Liver Health", "Diuretic"],
+              "imageUrls": [
+                "https://example.com/images/punarnava1.jpg",
+                "https://example.com/images/punarnava2.jpg",
+                "https://example.com/images/punarnava3.jpg",
+                "https://example.com/images/punarnava4.jpg",
+                "https://example.com/images/punarnava5.jpg"
+              ],
+              "description": "Punarnava is an herb known for its diuretic properties and benefits to kidney and liver health. It grows well in loamy soil with full sun exposure.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Diuretic"]
+            },
+            "documentID45": {
+              "hindiName": "Chirata",
+              "englishName": "Swertia",
+              "botanicalName": "Swertia chirata",
+              "uses": ["Fever Relief", "Detoxification", "Liver Health"],
+              "imageUrls": [
+                "https://example.com/images/chirata1.jpg",
+                "https://example.com/images/chirata2.jpg",
+                "https://example.com/images/chirata3.jpg",
+                "https://example.com/images/chirata4.jpg",
+                "https://example.com/images/chirata5.jpg"
+              ],
+              "description": "Chirata is a bitter herb used traditionally for fever relief, detoxification, and improving liver health. It grows well in sandy loam soil with full sun exposure.",
+              "type": "Herb",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Winter",
+              "region": "Himalayan",
+              "tags": ["Medicinal", "Bitter"]
+            },
+            "documentID46": {
+              "hindiName": "Ashwagandha",
+              "englishName": "Winter Cherry",
+              "botanicalName": "Withania somnifera",
+              "uses": ["Stress Relief", "Immunity", "Energy Boost"],
+              "imageUrls": [
+                "https://example.com/images/ashwagandha1.jpg",
+                "https://example.com/images/ashwagandha2.jpg",
+                "https://example.com/images/ashwagandha3.jpg",
+                "https://example.com/images/ashwagandha4.jpg",
+                "https://example.com/images/ashwagandha5.jpg"
+              ],
+              "description": "Ashwagandha, also known as Winter Cherry, is an adaptogen used for stress relief, boosting immunity, and enhancing energy. It thrives in sandy soil with full sun exposure.",
+              "type": "Herb",
+              "soilType": ["Sandy", "Loamy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Summer",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Adaptogen"]
+            },
+            "documentID47": {
+              "hindiName": "Aloe Vera",
+              "englishName": "Aloe",
+              "botanicalName": "Aloe barbadensis miller",
+              "uses": ["Skin Care", "Digestive Health", "Detoxification"],
+              "imageUrls": [
+                "https://example.com/images/aloevera1.jpg",
+                "https://example.com/images/aloevera2.jpg",
+                "https://example.com/images/aloevera3.jpg",
+                "https://example.com/images/aloevera4.jpg",
+                "https://example.com/images/aloevera5.jpg"
+              ],
+              "description": "Aloe Vera is a succulent plant known for its soothing properties for skin care, promoting digestive health, and detoxifying the body. It thrives in well-drained sandy soil with full sun exposure.",
+              "type": "Succulent",
+              "soilType": ["Sandy", "Loamy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Summer",
+              "region": "Subtropical",
+              "tags": ["Medicinal", "Skin Care"]
+            },
+            "documentID48": {
+              "hindiName": "Giloy",
+              "englishName": "Heart-leaved Moonseed",
+              "botanicalName": "Tinospora cordifolia",
+              "uses": ["Immunity Boost", "Fever Relief", "Detoxification"],
+              "imageUrls": [
+                "https://example.com/images/giloy1.jpg",
+                "https://example.com/images/giloy2.jpg",
+                "https://example.com/images/giloy3.jpg",
+                "https://example.com/images/giloy4.jpg",
+                "https://example.com/images/giloy5.jpg"
+              ],
+              "description": "Giloy is a climber plant recognized for its immune-boosting, fever-relieving, and detoxifying properties. It grows well in loamy soil with partial shade.",
+              "type": "Climber",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Partial Shade",
+              "wateringFrequency": "Medium",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Immunity Boost"]
+            },
+            "documentID49": {
+              "hindiName": "Arjuna",
+              "englishName": "Arjuna Tree",
+              "botanicalName": "Terminalia arjuna",
+              "uses": ["Heart Health", "Cardiovascular Health", "Blood Pressure"],
+              "imageUrls": [
+                "https://example.com/images/arjuna1.jpg",
+                "https://example.com/images/arjuna2.jpg",
+                "https://example.com/images/arjuna3.jpg",
+                "https://example.com/images/arjuna4.jpg",
+                "https://example.com/images/arjuna5.jpg"
+              ],
+              "description": "Arjuna is a tree widely known for its benefits to heart health, cardiovascular health, and managing blood pressure. It grows well in loamy soil with full sun exposure.",
+              "type": "Tree",
+              "soilType": ["Loamy", "Clay"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Low",
+              "season": "Monsoon",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Heart Health"]
+            },
+            "documentID50": {
+              "hindiName": "Kalonji",
+              "englishName": "Black Cumin",
+              "botanicalName": "Nigella sativa",
+              "uses": ["Digestive Health", "Immunity Boost", "Anti-inflammatory"],
+              "imageUrls": [
+                "https://example.com/images/kalonji1.jpg",
+                "https://example.com/images/kalonji2.jpg",
+                "https://example.com/images/kalonji3.jpg",
+                "https://example.com/images/kalonji4.jpg",
+                "https://example.com/images/kalonji5.jpg"
+              ],
+              "description": "Kalonji, also known as Black Cumin, is a flowering plant used for its digestive health benefits, boosting immunity, and anti-inflammatory properties. It grows well in loamy soil with full sun exposure.",
+              "type": "Flowering Plant",
+              "soilType": ["Loamy", "Sandy"],
+              "sunlight": "Full Sun",
+              "wateringFrequency": "Medium",
+              "season": "Winter",
+              "region": "Tropical",
+              "tags": ["Medicinal", "Digestive Health"]
+            },
+          
+            
+                "documentID59": {
+                  "hindiName": "Guduchi",
+                  "englishName": "Heart-leaved Moonseed",
+                  "botanicalName": "Tinospora cordifolia",
+                  "uses": ["Immunity Boost", "Fever Relief", "Detoxification"],
+                  "imageUrls": [
+                    "https://example.com/images/guduchi1.jpg",
+                    "https://example.com/images/guduchi2.jpg",
+                    "https://example.com/images/guduchi3.jpg",
+                    "https://example.com/images/guduchi4.jpg",
+                    "https://example.com/images/guduchi5.jpg"
+                  ],
+                  "description": "Guduchi is known for its strong immune-boosting properties, fever relief, and detoxification benefits. It grows best in well-drained soil with partial shade.",
+                  "type": "Climber",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Partial Shade",
+                  "wateringFrequency": "Medium",
+                  "season": "Monsoon",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Immunity Boost"]
+                },
+                "documentID60": {
+                  "hindiName": "Haritaki",
+                  "englishName": "Chebulic Myrobalan",
+                  "botanicalName": "Terminalia chebula",
+                  "uses": ["Digestive Health", "Detoxification", "Anti-aging"],
+                  "imageUrls": [
+                    "https://example.com/images/haritaki1.jpg",
+                    "https://example.com/images/haritaki2.jpg",
+                    "https://example.com/images/haritaki3.jpg",
+                    "https://example.com/images/haritaki4.jpg",
+                    "https://example.com/images/haritaki5.jpg"
+                  ],
+                  "description": "Haritaki is renowned for its digestive health benefits, detoxification, and anti-aging properties. It thrives in dry, sandy soil with full sun exposure.",
+                  "type": "Tree",
+                  "soilType": ["Sandy", "Loamy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Low",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Digestive Health"]
+                },
+                "documentID61": {
+                  "hindiName": "Kalmegh",
+                  "englishName": "King of Bitters",
+                  "botanicalName": "Andrographis paniculata",
+                  "uses": ["Liver Health", "Cold Relief", "Immune Support"],
+                  "imageUrls": [
+                    "https://example.com/images/kalmegh1.jpg",
+                    "https://example.com/images/kalmegh2.jpg",
+                    "https://example.com/images/kalmegh3.jpg",
+                    "https://example.com/images/kalmegh4.jpg",
+                    "https://example.com/images/kalmegh5.jpg"
+                  ],
+                  "description": "Kalmegh is known for its liver health benefits, cold relief, and immune support. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Monsoon",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Liver Health"]
+                },
+                "documentID62": {
+                  "hindiName": "Kalonji",
+                  "englishName": "Nigella",
+                  "botanicalName": "Nigella sativa",
+                  "uses": ["Digestive Health", "Immune Boost", "Anti-inflammatory"],
+                  "imageUrls": [
+                    "https://example.com/images/kalonji1.jpg",
+                    "https://example.com/images/kalonji2.jpg",
+                    "https://example.com/images/kalonji3.jpg",
+                    "https://example.com/images/kalonji4.jpg",
+                    "https://example.com/images/kalonji5.jpg"
+                  ],
+                  "description": "Kalonji, or Nigella, is valued for its digestive health benefits, immune boosting properties, and anti-inflammatory effects. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Sandy", "Loamy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Summer",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Digestive Health"]
+                },
+                "documentID63": {
+                  "hindiName": "Psyllium",
+                  "englishName": "Isabgol",
+                  "botanicalName": "Plantago ovata",
+                  "uses": ["Digestive Health", "Constipation Relief", "Cholesterol Management"],
+                  "imageUrls": [
+                    "https://example.com/images/psyllium1.jpg",
+                    "https://example.com/images/psyllium2.jpg",
+                    "https://example.com/images/psyllium3.jpg",
+                    "https://example.com/images/psyllium4.jpg",
+                    "https://example.com/images/psyllium5.jpg"
+                  ],
+                  "description": "Psyllium, also known as Isabgol, is used for its benefits in digestive health, constipation relief, and cholesterol management. It grows best in sandy soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Sandy", "Loamy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Low",
+                  "season": "Summer",
+                  "region": "Subtropical",
+                  "tags": ["Medicinal", "Digestive Health"]
+                },
+                "documentID64": {
+                  "hindiName": "Sarpagandha",
+                  "englishName": "Rauwolfia",
+                  "botanicalName": "Rauvolfia serpentina",
+                  "uses": ["Blood Pressure Regulation", "Anti-anxiety", "Insomnia Relief"],
+                  "imageUrls": [
+                    "https://example.com/images/sarpagandha1.jpg",
+                    "https://example.com/images/sarpagandha2.jpg",
+                    "https://example.com/images/sarpagandha3.jpg",
+                    "https://example.com/images/sarpagandha4.jpg",
+                    "https://example.com/images/sarpagandha5.jpg"
+                  ],
+                  "description": "Sarpagandha is known for its ability to regulate blood pressure, relieve anxiety, and treat insomnia. It thrives in well-drained soil with partial shade.",
+                  "type": "Shrub",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Partial Shade",
+                  "wateringFrequency": "Medium",
+                  "season": "Monsoon",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Blood Pressure"]
+                },
+                "documentID65": {
+                  "hindiName": "Jatamansi",
+                  "englishName": "Spikenard",
+                  "botanicalName": "Nardostachys jatamansi",
+                  "uses": ["Stress Relief", "Sleep Aid", "Anti-anxiety"],
+                  "imageUrls": [
+                    "https://example.com/images/jatamansi1.jpg",
+                    "https://example.com/images/jatamansi2.jpg",
+                    "https://example.com/images/jatamansi3.jpg",
+                    "https://example.com/images/jatamansi4.jpg",
+                    "https://example.com/images/jatamansi5.jpg"
+                  ],
+                  "description": "Jatamansi, or Spikenard, is valued for its stress relief, sleep aid, and anti-anxiety properties. It grows well in cool, well-drained soil with partial shade.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Partial Shade",
+                  "wateringFrequency": "Medium",
+                  "season": "Winter",
+                  "region": "Himalayan",
+                  "tags": ["Medicinal", "Stress Relief"]
+                },
+                "documentID66": {
+                  "hindiName": "Amla",
+                  "englishName": "Indian Gooseberry",
+                  "botanicalName": "Phyllanthus emblica",
+                  "uses": ["Immunity Boost", "Anti-aging", "Digestive Health"],
+                  "imageUrls": [
+                    "https://example.com/images/amla1.jpg",
+                    "https://example.com/images/amla2.jpg",
+                    "https://example.com/images/amla3.jpg",
+                    "https://example.com/images/amla4.jpg",
+                    "https://example.com/images/amla5.jpg"
+                  ],
+                  "description": "Amla, or Indian Gooseberry, is renowned for boosting immunity, its anti-aging benefits, and improving digestive health. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Tree",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Immunity Boost"]
+                },
+                "documentID67": {
+                  "hindiName": "Bhringraj",
+                  "englishName": "False Daisy",
+                  "botanicalName": "Eclipta prostrata",
+                  "uses": ["Hair Health", "Liver Detox", "Skin Care"],
+                  "imageUrls": [
+                    "https://example.com/images/bhringraj1.jpg",
+                    "https://example.com/images/bhringraj2.jpg",
+                    "https://example.com/images/bhringraj3.jpg",
+                    "https://example.com/images/bhringraj4.jpg",
+                    "https://example.com/images/bhringraj5.jpg"
+                  ],
+                  "description": "Bhringraj, or False Daisy, is famous for promoting hair health, liver detoxification, and skin care. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Monsoon",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Hair Health"]
+                },
+                "documentID68": {
+                  "hindiName": "Neem",
+                  "englishName": "Neem Tree",
+                  "botanicalName": "Azadirachta indica",
+                  "uses": ["Skin Care", "Antiseptic", "Dental Health"],
+                  "imageUrls": [
+                    "https://example.com/images/neem1.jpg",
+                    "https://example.com/images/neem2.jpg",
+                    "https://example.com/images/neem3.jpg",
+                    "https://example.com/images/neem4.jpg",
+                    "https://example.com/images/neem5.jpg"
+                  ],
+                  "description": "Neem is valued for its skin care, antiseptic, and dental health benefits. It thrives in well-drained soil with full sun exposure.",
+                  "type": "Tree",
+                  "soilType": ["Sandy", "Loamy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Low",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Skin Care"]
+                },
+                "documentID69": {
+                  "hindiName": "Guggul",
+                  "englishName": "Commiphora",
+                  "botanicalName": "Commiphora wightii",
+                  "uses": ["Joint Health", "Cholesterol Management", "Anti-inflammatory"],
+                  "imageUrls": [
+                    "https://example.com/images/guggul1.jpg",
+                    "https://example.com/images/guggul2.jpg",
+                    "https://example.com/images/guggul3.jpg",
+                    "https://example.com/images/guggul4.jpg",
+                    "https://example.com/images/guggul5.jpg"
+                  ],
+                  "description": "Guggul is known for its benefits in joint health, cholesterol management, and anti-inflammatory effects. It grows best in dry, well-drained soil with full sun exposure.",
+                  "type": "Shrub",
+                  "soilType": ["Sandy", "Loamy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Low",
+                  "season": "Summer",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Joint Health"]
+                },
+                "documentID70": {
+                  "hindiName": "Methi",
+                  "englishName": "Fenugreek",
+                  "botanicalName": "Trigonella foenum-graecum",
+                  "uses": ["Digestive Health", "Blood Sugar Regulation", "Lactation Support"],
+                  "imageUrls": [
+                    "https://example.com/images/methi1.jpg",
+                    "https://example.com/images/methi2.jpg",
+                    "https://example.com/images/methi3.jpg",
+                    "https://example.com/images/methi4.jpg",
+                    "https://example.com/images/methi5.jpg"
+                  ],
+                  "description": "Methi, or Fenugreek, is used for its digestive health benefits, blood sugar regulation, and lactation support. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Digestive Health"]
+                },
+                "documentID71": {
+                  "hindiName": "Tulsi",
+                  "englishName": "Holy Basil",
+                  "botanicalName": "Ocimum sanctum",
+                  "uses": ["Immunity Boost", "Stress Relief", "Respiratory Health"],
+                  "imageUrls": [
+                    "https://example.com/images/tulsi1.jpg",
+                    "https://example.com/images/tulsi2.jpg",
+                    "https://example.com/images/tulsi3.jpg",
+                    "https://example.com/images/tulsi4.jpg",
+                    "https://example.com/images/tulsi5.jpg"
+                  ],
+                  "description": "Tulsi, or Holy Basil, is renowned for boosting immunity, relieving stress, and supporting respiratory health. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Monsoon",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Immunity Boost"]
+                },
+                "documentID72": {
+                  "hindiName": "Ashwagandha",
+                  "englishName": "Withania",
+                  "botanicalName": "Withania somnifera",
+                  "uses": ["Stress Relief", "Energy Boost", "Cognitive Health"],
+                  "imageUrls": [
+                    "https://example.com/images/ashwagandha1.jpg",
+                    "https://example.com/images/ashwagandha2.jpg",
+                    "https://example.com/images/ashwagandha3.jpg",
+                    "https://example.com/images/ashwagandha4.jpg",
+                    "https://example.com/images/ashwagandha5.jpg"
+                  ],
+                  "description": "Ashwagandha, or Withania, is used for stress relief, boosting energy, and cognitive health. It thrives in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Low",
+                  "season": "Summer",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Stress Relief"]
+                },
+                "documentID73": {
+                  "hindiName": "Yarrow",
+                  "englishName": "Achillea",
+                  "botanicalName": "Achillea millefolium",
+                  "uses": ["Wound Healing", "Digestive Health", "Anti-inflammatory"],
+                  "imageUrls": [
+                    "https://example.com/images/yarrow1.jpg",
+                    "https://example.com/images/yarrow2.jpg",
+                    "https://example.com/images/yarrow3.jpg",
+                    "https://example.com/images/yarrow4.jpg",
+                    "https://example.com/images/yarrow5.jpg"
+                  ],
+                  "description": "Yarrow is known for its wound healing, digestive health, and anti-inflammatory properties. It grows well in well-drained soil with full sun exposure.",
+                  "type": "Herb",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Full Sun",
+                  "wateringFrequency": "Medium",
+                  "season": "Summer",
+                  "region": "Temperate",
+                  "tags": ["Medicinal", "Wound Healing"]
+                },
+                "documentID74": {
+                  "hindiName": "Ginger",
+                  "englishName": "Ginger",
+                  "botanicalName": "Zingiber officinale",
+                  "uses": ["Digestive Health", "Anti-nausea", "Anti-inflammatory"],
+                  "imageUrls": [
+                    "https://example.com/images/ginger1.jpg",
+                    "https://example.com/images/ginger2.jpg",
+                    "https://example.com/images/ginger3.jpg",
+                    "https://example.com/images/ginger4.jpg",
+                    "https://example.com/images/ginger5.jpg"
+                  ],
+                  "description": "Ginger is valued for its digestive health benefits, anti-nausea properties, and anti-inflammatory effects. It grows best in warm, well-drained soil with partial shade.",
+                  "type": "Root",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Partial Shade",
+                  "wateringFrequency": "Medium",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Digestive Health"]
+                },
+                "documentID75": {
+                  "hindiName": "Turmeric",
+                  "englishName": "Turmeric",
+                  "botanicalName": "Curcuma longa",
+                  "uses": ["Anti-inflammatory", "Digestive Health", "Skin Care"],
+                  "imageUrls": [
+                    "https://example.com/images/turmeric1.jpg",
+                    "https://example.com/images/turmeric2.jpg",
+                    "https://example.com/images/turmeric3.jpg",
+                    "https://example.com/images/turmeric4.jpg",
+                    "https://example.com/images/turmeric5.jpg"
+                  ],
+                  "description": "Turmeric is known for its anti-inflammatory, digestive health, and skin care benefits. It thrives in warm, well-drained soil with partial shade.",
+                  "type": "Root",
+                  "soilType": ["Loamy", "Sandy"],
+                  "sunlight": "Partial Shade",
+                  "wateringFrequency": "Medium",
+                  "season": "Winter",
+                  "region": "Tropical",
+                  "tags": ["Medicinal", "Skin Care"]
+                }
+              }
+
+
+    }
+
+    
+  

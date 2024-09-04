@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "185449724504",
+    "project_id": "ayurvan-b2bf2",
+    "storage_bucket": "ayurvan-b2bf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185449724504:android:5d0b9ec9f5c0b7a4c6e82d",
+        "android_client_info": {
+          "package_name": "com.example.ayurvan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185449724504-mr268q784l76j2m5ctes7eiiv7fbebp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfxePqJRyMDJNzX0Y9Bl9DFBzRUMGHVZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185449724504-mr268q784l76j2m5ctes7eiiv7fbebp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185449724504:android:4601db8bc4af4c39c6e82d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185449724504-mr268q784l76j2m5ctes7eiiv7fbebp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfxePqJRyMDJNzX0Y9Bl9DFBzRUMGHVZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185449724504-mr268q784l76j2m5ctes7eiiv7fbebp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
