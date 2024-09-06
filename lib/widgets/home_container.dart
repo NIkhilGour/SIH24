@@ -1,9 +1,10 @@
+import 'package:ayurvan/models/plant_data.dart';
 import 'package:flutter/material.dart';
 import 'package:ayurvan/core/colors.dart';
 
 class HomeTileContainer extends StatelessWidget {
-  const HomeTileContainer({super.key});
-
+  const HomeTileContainer({super.key,required this.plantdata});
+  final HerbalPlants plantdata;
   @override
   Widget build(BuildContext context) {
      return Padding(
@@ -28,9 +29,9 @@ class HomeTileContainer extends StatelessWidget {
           left: 0,
           
           child: SizedBox(
-            height: 50,
-            width: 50,
-            child: Image.asset('assets/images/documentID63-2.png',fit: BoxFit.cover,)),),
+            height: 40,
+            width: 40,
+            child: Image.network(plantdata.imageUrls![0],fit: BoxFit.cover,)),),
 
             Positioned(
             left: 120,
@@ -38,16 +39,17 @@ class HomeTileContainer extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                   const Text('Ginger',style: TextStyle(
+                    Text(plantdata.englishName!,style: const TextStyle(
                     color : Colors.black,
                     fontSize: 17,
                     fontWeight: FontWeight.w600,
                     
                   ),),
-                  Text('Zingiber officinale',style: TextStyle(
+                  Text(plantdata.botanicalName!,style: TextStyle(
                     color: Colors.green.shade700,
                     fontSize: 20,
-                    fontWeight: FontWeight.bold
+                    fontWeight: FontWeight.bold,
+                    overflow: TextOverflow.ellipsis
                   ),)
           ],)),
 

@@ -1,17 +1,16 @@
 {
     "_collections_": {
-      "herbalPlants": {
-        "documentID1": {
+      "herbalPlants": [
+         {
           "hindiName": "Adusa/Vasaka",
           "englishName": "Malabar Nut",
           "botanicalName": "Adhatoda vasica Nees",
           "uses": ["Cough", "Asthma", "Bronchitis"],
           "imageUrls": [
-            "https://example.com/images/adusa1.jpg",
-            "https://example.com/images/adusa2.jpg",
-            "https://example.com/images/adusa3.jpg",
-            "https://example.com/images/adusa4.jpg",
-            "https://example.com/images/adusa5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID1-1.png?alt=media&token=978704cf-af88-4aed-8c71-953fa729cb6e",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID1-2.png?alt=media&token=7a2d79ac-9ca3-4d29-894a-7ebbc91cbcce",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID1-3.png?alt=media&token=60e3846d-4f24-4b54-9d27-a04d090b53e0"
+            
           ],
           "description": "Adusa, also known as Malabar Nut, is used in treating cough, asthma, and bronchitis. It is a herb that grows in tropical regions and prefers full sun exposure.",
           "type": "Herb",
@@ -22,17 +21,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Evergreen"]
         },
-        "documentID2": {
+        {
           "hindiName": "Ananas",
           "englishName": "Pineapple",
           "botanicalName": "Ananas comosus",
           "uses": ["Sore Throat", "Diabetes", "Heart Disease", "Obesity"],
           "imageUrls": [
-            "https://example.com/images/ananas1.jpg",
-            "https://example.com/images/ananas2.jpg",
-            "https://example.com/images/ananas3.jpg",
-            "https://example.com/images/ananas4.jpg",
-            "https://example.com/images/ananas5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID2-1.png?alt=media&token=9d602e32-4910-4a33-b3bb-3afef4134f83",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID2-2.png?alt=media&token=c9e5685c-ec94-479b-a0d2-ff84f5a757b3",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID2-3.png?alt=media&token=6e73eaa7-4780-4a7c-9d8e-a19d36ff89b0"
+           
           ],
           "description": "Pineapple is a tropical fruit known for its high vitamin C content. It helps in treating sore throat, diabetes, heart disease, and obesity.",
           "type": "Fruit",
@@ -43,17 +41,16 @@
           "region": "Tropical",
           "tags": ["Edible", "Fruit"]
         },
-        "documentID3": {
+        {
           "hindiName": "Ashwagandha",
           "englishName": "Winter Cherry",
           "botanicalName": "Withania somnifera",
           "uses": ["Stress Relief", "Immunity", "Energy"],
           "imageUrls": [
-            "https://example.com/images/ashwagandha1.jpg",
-            "https://example.com/images/ashwagandha2.jpg",
-            "https://example.com/images/ashwagandha3.jpg",
-            "https://example.com/images/ashwagandha4.jpg",
-            "https://example.com/images/ashwagandha5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID3_1.png?alt=media&token=a06efbc2-6d0a-40a6-8cf8-b719823ec170",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID3-2.png?alt=media&token=569ad4ac-9389-4b81-8fb1-ebcebaeb3828",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID3-3.png?alt=media&token=ef3f5378-f1d4-4b2c-994f-a8d6c82091a5"
+           
           ],
           "description": "Ashwagandha is a powerful adaptogen known for its stress-relieving and energy-boosting properties. It thrives in well-drained, sandy soil under full sun.",
           "type": "Herb",
@@ -64,17 +61,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Adaptogen"]
         },
-        "documentID4": {
+       {
           "hindiName": "Neem",
           "englishName": "Neem",
           "botanicalName": "Azadirachta indica",
           "uses": ["Skin Care", "Blood Purification", "Immunity"],
           "imageUrls": [
-            "https://example.com/images/neem1.jpg",
-            "https://example.com/images/neem2.jpg",
-            "https://example.com/images/neem3.jpg",
-            "https://example.com/images/neem4.jpg",
-            "https://example.com/images/neem5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID4-1.png?alt=media&token=b461215a-18ce-41ce-8683-a04ff83e3fde",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID4-2.png?alt=media&token=2e0e7081-0931-4657-a147-b89b58bfffe2",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID4-3.png?alt=media&token=4b830262-3672-41eb-b432-d7a850a163c5"
+           
           ],
           "description": "Neem is a versatile medicinal plant known for its antibacterial, antifungal, and anti-inflammatory properties. It is widely used in skincare and for boosting immunity.",
           "type": "Tree",
@@ -85,17 +81,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Evergreen"]
         },
-        "documentID5": {
+      {
           "hindiName": "Brahmi",
           "englishName": "Bacopa",
           "botanicalName": "Bacopa monnieri",
           "uses": ["Memory", "Cognitive Function", "Anxiety"],
           "imageUrls": [
-            "https://example.com/images/brahmi1.jpg",
-            "https://example.com/images/brahmi2.jpg",
-            "https://example.com/images/brahmi3.jpg",
-            "https://example.com/images/brahmi4.jpg",
-            "https://example.com/images/brahmi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID5-1.png?alt=media&token=d9dca4a2-fa5c-42d1-911f-702eb9d733d6",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID5-2.png?alt=media&token=ce7fd667-a34f-48a6-bb4b-ee252020d8b1",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID5-3.png?alt=media&token=10952798-266e-4a66-9ef1-05e18cae6d6c"
+           
           ],
           "description": "Brahmi is an herb known for enhancing memory, cognitive function, and reducing anxiety. It grows well in damp, marshy conditions with partial shade.",
           "type": "Herb",
@@ -106,17 +101,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Cognitive"]
         },
-        "documentID6": {
+        {
           "hindiName": "Giloy",
           "englishName": "Heart-leaved Moonseed",
           "botanicalName": "Tinospora cordifolia",
           "uses": ["Immunity", "Fever", "Diabetes"],
           "imageUrls": [
-            "https://example.com/images/giloy1.jpg",
-            "https://example.com/images/giloy2.jpg",
-            "https://example.com/images/giloy3.jpg",
-            "https://example.com/images/giloy4.jpg",
-            "https://example.com/images/giloy5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID6-1.png?alt=media&token=6bbf6a07-34cf-467c-9c09-a4485dd50d47",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID6-2.png?alt=media&token=e3b67f52-daac-46d8-b48b-fd6419e6f7e7",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID6-3.png?alt=media&token=1403ac04-ec12-4e5c-987d-23adfc8ffeab"
+            
           ],
           "description": "Giloy is a well-known herb in Ayurveda for boosting immunity and treating chronic fevers and diabetes. It prefers moderate watering and full sunlight.",
           "type": "Climber",
@@ -127,17 +121,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Climber"]
         },
-        "documentID7": {
+      {
           "hindiName": "Tulsi",
           "englishName": "Holy Basil",
           "botanicalName": "Ocimum sanctum",
           "uses": ["Cough", "Cold", "Immunity"],
           "imageUrls": [
-            "https://example.com/images/tulsi1.jpg",
-            "https://example.com/images/tulsi2.jpg",
-            "https://example.com/images/tulsi3.jpg",
-            "https://example.com/images/tulsi4.jpg",
-            "https://example.com/images/tulsi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID7-1.png?alt=media&token=956a8b61-5fd2-40ca-b064-fd292cf91e0b",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID7-2.png?alt=media&token=0506744c-621b-4aa9-82c9-6c5d4dd6e317",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID7-3.png?alt=media&token=2e34edd1-9af7-4022-96a4-bfa645a6286a"
+           
           ],
           "description": "Tulsi, also known as Holy Basil, is a sacred plant in India known for its medicinal properties, especially in treating respiratory issues and boosting immunity.",
           "type": "Herb",
@@ -148,17 +141,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Aromatic"]
         },
-        "documentID8": {
+        {
           "hindiName": "Aloe Vera",
           "englishName": "Aloe Vera",
           "botanicalName": "Aloe barbadensis miller",
           "uses": ["Skin Care", "Digestion", "Wound Healing"],
           "imageUrls": [
-            "https://example.com/images/aloe_vera1.jpg",
-            "https://example.com/images/aloe_vera2.jpg",
-            "https://example.com/images/aloe_vera3.jpg",
-            "https://example.com/images/aloe_vera4.jpg",
-            "https://example.com/images/aloe_vera5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID8-1.png?alt=media&token=0e07cfec-7ae2-436b-8285-f157b38ab064",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID8-2.png?alt=media&token=e38a774e-d2a7-4b94-88d0-0c6485da43f3",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID8-3.png?alt=media&token=6b541f3d-b5ef-4643-9628-13ad91f3d616"
+            
           ],
           "description": "Aloe Vera is a succulent plant known for its healing properties, particularly in skincare and digestive health. It grows best in well-drained, sandy soil with full sun.",
           "type": "Succulent",
@@ -169,17 +161,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Succulent"]
         },
-        "documentID9": {
+       {
           "hindiName": "Arjuna",
           "englishName": "Arjuna",
           "botanicalName": "Terminalia arjuna",
           "uses": ["Heart Health", "Blood Pressure", "Cholesterol"],
           "imageUrls": [
-            "https://example.com/images/arjuna1.jpg",
-            "https://example.com/images/arjuna2.jpg",
-            "https://example.com/images/arjuna3.jpg",
-            "https://example.com/images/arjuna4.jpg",
-            "https://example.com/images/arjuna5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID9-1.png?alt=media&token=02aa4013-82df-428e-b93e-794194cef4ff",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID9-2.png?alt=media&token=0869b341-a0ce-46d9-b7de-ba5e0310a8c3",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID9-3.png?alt=media&token=c0b9ede2-05d5-4d35-bbc5-cc692f631a5f"
+           
           ],
           "description": "Arjuna is a tree known for its strong heart-protective properties, often used in traditional medicine to manage blood pressure and cholesterol levels.",
           "type": "Tree",
@@ -190,17 +181,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Tree"]
         },
-        "documentID10": {
+      {
           "hindiName": "Methi",
           "englishName": "Fenugreek",
           "botanicalName": "Trigonella foenum-graecum",
           "uses": ["Digestion", "Diabetes", "Heart Health"],
           "imageUrls": [
-            "https://example.com/images/methi1.jpg",
-            "https://example.com/images/methi2.jpg",
-            "https://example.com/images/methi3.jpg",
-            "https://example.com/images/methi4.jpg",
-            "https://example.com/images/methi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID10-1.png?alt=media&token=897b2a62-3ddf-4444-9e67-85b92f879405",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID10-2.png?alt=media&token=fc58ecf9-cc0d-4351-aa7f-9d8a47d85668",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID10-3.png?alt=media&token=e27c3d46-5b9e-4b41-91d4-166e6c0a9ba9"
+            
           ],
           "description": "Fenugreek is an herb widely used in cooking and traditional medicine for its digestive and blood sugar-lowering benefits.",
           "type": "Herb",
@@ -211,17 +201,16 @@
           "region": "Temperate",
           "tags": ["Medicinal", "Culinary"]
         },
-        "documentID11": {
+     {
           "hindiName": "Shatavari",
           "englishName": "Asparagus",
           "botanicalName": "Asparagus racemosus",
           "uses": ["Women's Health", "Immunity", "Digestive Health"],
           "imageUrls": [
-            "https://example.com/images/shatavari1.jpg",
-            "https://example.com/images/shatavari2.jpg",
-            "https://example.com/images/shatavari3.jpg",
-            "https://example.com/images/shatavari4.jpg",
-            "https://example.com/images/shatavari5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID11-1.png?alt=media&token=818290e2-7b49-4f19-a204-6e5a7c32b4a3",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID11-2.png?alt=media&token=89c7658f-a7d5-440c-8629-28b3c4059d66",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID11-3.png?alt=media&token=7c35c5d9-25b5-43db-bbe1-51516029f69a"
+            
           ],
           "description": "Shatavari is a rejuvenating herb in Ayurveda, known for supporting women's health, boosting immunity, and promoting digestion.",
           "type": "Herb",
@@ -232,17 +221,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Rejuvenating"]
         },
-        "documentID12": {
+     {
           "hindiName": "Gudmar",
           "englishName": "Gymnema",
           "botanicalName": "Gymnema sylvestre",
           "uses": ["Diabetes", "Weight Loss", "Cholesterol"],
           "imageUrls": [
-            "https://example.com/images/gudmar1.jpg",
-            "https://example.com/images/gudmar2.jpg",
-            "https://example.com/images/gudmar3.jpg",
-            "https://example.com/images/gudmar4.jpg",
-            "https://example.com/images/gudmar5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID12-1.png?alt=media&token=212f4e61-aaf1-44b4-8d9a-2f5cffd3c299",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID12-2.png?alt=media&token=ffd94c40-1664-4bbc-89c6-6b3531804612",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID12-3.png?alt=media&token=9713445d-be05-4745-9c22-0a9523dc4f5e"
+           
           ],
           "description": "Gudmar is a climbing plant known for its anti-diabetic properties and its ability to reduce sugar cravings. It grows well in tropical climates with full sun.",
           "type": "Climber",
@@ -253,17 +241,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Climber"]
         },
-        "documentID13": {
+      {
           "hindiName": "Jatamansi",
           "englishName": "Spikenard",
           "botanicalName": "Nardostachys jatamansi",
           "uses": ["Stress Relief", "Sleep", "Hair Health"],
           "imageUrls": [
-            "https://example.com/images/jatamansi1.jpg",
-            "https://example.com/images/jatamansi2.jpg",
-            "https://example.com/images/jatamansi3.jpg",
-            "https://example.com/images/jatamansi4.jpg",
-            "https://example.com/images/jatamansi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID13-1.png?alt=media&token=7869b79c-1ca8-4d62-87e2-858e49567697",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID13-2.png?alt=media&token=f664084c-f87b-4813-a827-0bf7128c6b3c",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID13-3.png?alt=media&token=933aa915-fd2b-4a33-ab34-91fb8b94aa24"
+           
           ],
           "description": "Jatamansi is an herb known for its calming effects, promoting restful sleep, and supporting hair health. It thrives in cooler, mountainous regions.",
           "type": "Herb",
@@ -274,17 +261,16 @@
           "region": "Temperate",
           "tags": ["Medicinal", "Aromatic"]
         },
-        "documentID14": {
+       {
           "hindiName": "Guggul",
           "englishName": "Indian Bdellium",
           "botanicalName": "Commiphora wightii",
           "uses": ["Cholesterol", "Arthritis", "Skin Disorders"],
           "imageUrls": [
-            "https://example.com/images/guggul1.jpg",
-            "https://example.com/images/guggul2.jpg",
-            "https://example.com/images/guggul3.jpg",
-            "https://example.com/images/guggul4.jpg",
-            "https://example.com/images/guggul5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID14-1.png?alt=media&token=f871e755-b49e-434d-b02a-f10e88657ab6",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID14-2.png?alt=media&token=c419841d-3836-4343-9d9a-fea0d9a7b64b",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID14-3.png?alt=media&token=e58dc42a-34c9-4b5a-b8fc-7d9144b15f6e"
+            
           ],
           "description": "Guggul is a resin obtained from the Indian Bdellium tree, used in Ayurvedic medicine to treat high cholesterol, arthritis, and skin disorders.",
           "type": "Resin",
@@ -295,17 +281,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Resin"]
         },
-        "documentID15": {
+        {
           "hindiName": "Amla",
           "englishName": "Indian Gooseberry",
           "botanicalName": "Phyllanthus emblica",
           "uses": ["Immunity", "Digestion", "Skin Health"],
           "imageUrls": [
-            "https://example.com/images/amla1.jpg",
-            "https://example.com/images/amla2.jpg",
-            "https://example.com/images/amla3.jpg",
-            "https://example.com/images/amla4.jpg",
-            "https://example.com/images/amla5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID15-1.png?alt=media&token=ad015393-49e2-4f6e-aeac-30ad911d1b76",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID15-2.png?alt=media&token=a4777aa0-024e-472a-8523-a1fa920d0914",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID15-3.png?alt=media&token=65e576bd-754c-4746-8c78-8bfcb95f4905"
+            
           ],
           "description": "Amla is a powerful antioxidant-rich fruit that supports immunity, aids digestion, and enhances skin health. It grows best in well-drained soil with full sun.",
           "type": "Fruit",
@@ -316,17 +301,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Antioxidant"]
         },
-        "documentID16": {
+     {
           "hindiName": "Bhumi Amla",
           "englishName": "Stonebreaker",
           "botanicalName": "Phyllanthus niruri",
           "uses": ["Liver Health", "Kidney Stones", "Jaundice"],
           "imageUrls": [
-            "https://example.com/images/bhumi_amla1.jpg",
-            "https://example.com/images/bhumi_amla2.jpg",
-            "https://example.com/images/bhumi_amla3.jpg",
-            "https://example.com/images/bhumi_amla4.jpg",
-            "https://example.com/images/bhumi_amla5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID16_1.jpg?alt=media&token=a6c4b9a1-811e-4596-975e-4791ae2eb812",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID16_2.jpg?alt=media&token=c76a8495-bdc1-4b91-a6c0-f1935a2c9403",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID16%20_3.jpg?alt=media&token=5ce72244-6e6d-461e-ba5c-db7863f5e456"
+           
           ],
           "description": "Bhumi Amla is a small herb used in traditional medicine for its liver-protective and kidney stone-reducing properties.",
           "type": "Herb",
@@ -337,17 +321,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Hepatic"]
         },
-        "documentID17": {
+       {
           "hindiName": "Kalmegh",
           "englishName": "Green Chiretta",
           "botanicalName": "Andrographis paniculata",
           "uses": ["Fever", "Liver Health", "Immunity"],
           "imageUrls": [
-            "https://example.com/images/kalmegh1.jpg",
-            "https://example.com/images/kalmegh2.jpg",
-            "https://example.com/images/kalmegh3.jpg",
-            "https://example.com/images/kalmegh4.jpg",
-            "https://example.com/images/kalmegh5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID17_1.jpg?alt=media&token=6f81c14f-0b32-4383-8345-01dccbe4dd31",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID17_1.jpg?alt=media&token=6f81c14f-0b32-4383-8345-01dccbe4dd31",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID17_1.jpg?alt=media&token=6f81c14f-0b32-4383-8345-01dccbe4dd31"
+           
           ],
           "description": "Kalmegh is a bitter herb known for its potent antiviral and liver-protective properties, commonly used in treating fever and boosting immunity.",
           "type": "Herb",
@@ -358,17 +341,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Bitter"]
         },
-        "documentID18": {
+        {
           "hindiName": "Haritaki",
           "englishName": "Chebulic Myrobalan",
           "botanicalName": "Terminalia chebula",
           "uses": ["Digestion", "Detoxification", "Cough"],
           "imageUrls": [
-            "https://example.com/images/haritaki1.jpg",
-            "https://example.com/images/haritaki2.jpg",
-            "https://example.com/images/haritaki3.jpg",
-            "https://example.com/images/haritaki4.jpg",
-            "https://example.com/images/haritaki5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID18_1.jpg?alt=media&token=753dfe50-9db3-4226-b5ae-e63c9924f4be",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID18%20_2.jpg?alt=media&token=3de78841-1e58-4215-b81d-db9970d6447f",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID18%20_3.jpg?alt=media&token=30051e95-8239-4dee-b50a-be471ce12848"
+           
           ],
           "description": "Haritaki is a revered herb in Ayurveda for its detoxifying and digestive benefits. It is often used in various herbal formulations for its health-enhancing properties.",
           "type": "Herb",
@@ -379,17 +361,16 @@
           "region": "Subtropical",
           "tags": ["Medicinal", "Detox"]
         },
-        "documentID19": {
+       {
           "hindiName": "Arjuna",
           "englishName": "Arjuna Tree",
           "botanicalName": "Terminalia arjuna",
           "uses": ["Heart Health", "Blood Pressure", "Liver Health"],
           "imageUrls": [
-            "https://example.com/images/arjuna1.jpg",
-            "https://example.com/images/arjuna2.jpg",
-            "https://example.com/images/arjuna3.jpg",
-            "https://example.com/images/arjuna4.jpg",
-            "https://example.com/images/arjuna5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID19_1.png?alt=media&token=915550d1-7f11-4fa5-90fa-4f49ee804947",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID9-2.png?alt=media&token=0869b341-a0ce-46d9-b7de-ba5e0310a8c3",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID9-3.png?alt=media&token=c0b9ede2-05d5-4d35-bbc5-cc692f631a5f"
+            
           ],
           "description": "The Arjuna tree is renowned in Ayurvedic medicine for its heart-strengthening and blood pressure-lowering properties. It grows well in loamy soil with full sun.",
           "type": "Tree",
@@ -400,17 +381,16 @@
           "region": "Subtropical",
           "tags": ["Medicinal", "Heart"]
         },
-        "documentID20": {
+     {
           "hindiName": "Chirata",
           "englishName": "Swertia",
           "botanicalName": "Swertia chirata",
           "uses": ["Fever", "Digestive Disorders", "Diabetes"],
           "imageUrls": [
-            "https://example.com/images/chirata1.jpg",
-            "https://example.com/images/chirata2.jpg",
-            "https://example.com/images/chirata3.jpg",
-            "https://example.com/images/chirata4.jpg",
-            "https://example.com/images/chirata5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID20_1.png?alt=media&token=6ef9a742-c45a-4553-a1e7-857eaf9af78d",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID20_2.png?alt=media&token=66719c89-e785-441c-a7b7-48e69ab25094",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID20_3.png?alt=media&token=ae6b455e-50bb-4c77-bdb0-f8ccc3cdffdc"
+           
           ],
           "description": "Chirata is a bitter herb known for its powerful antipyretic and digestive properties, often used in treating fever and digestive disorders.",
           "type": "Herb",
@@ -420,21 +400,18 @@
           "season": "Monsoon",
           "region": "Temperate",
           "tags": ["Medicinal", "Bitter"]
-        }
-      },
-
-      
-        "documentID21": {
+        },
+        
+      {
           "hindiName": "Neem",
           "englishName": "Neem Tree",
           "botanicalName": "Azadirachta indica",
           "uses": ["Skin Health", "Immunity", "Insect Repellent"],
           "imageUrls": [
-            "https://example.com/images/neem1.jpg",
-            "https://example.com/images/neem2.jpg",
-            "https://example.com/images/neem3.jpg",
-            "https://example.com/images/neem4.jpg",
-            "https://example.com/images/neem5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID21-1.png?alt=media&token=dab90be4-bf6e-4be1-bcf2-76d2e561b9b9",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID21-2.png?alt=media&token=7a705e92-94a2-4dc1-ac71-c46cabf08e31",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID21-3.png?alt=media&token=6142d2a7-1478-492a-be2f-dc41f78d5f2e"
+            
           ],
           "description": "Neem is a versatile tree known for its medicinal properties. It is widely used in traditional medicine for skin disorders, boosting immunity, and as a natural insect repellent.",
           "type": "Tree",
@@ -445,17 +422,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Antiseptic"]
         },
-        "documentID22": {
+      {
           "hindiName": "Tulsi",
           "englishName": "Holy Basil",
           "botanicalName": "Ocimum tenuiflorum",
           "uses": ["Respiratory Health", "Immunity", "Stress Relief"],
           "imageUrls": [
-            "https://example.com/images/tulsi1.jpg",
-            "https://example.com/images/tulsi2.jpg",
-            "https://example.com/images/tulsi3.jpg",
-            "https://example.com/images/tulsi4.jpg",
-            "https://example.com/images/tulsi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID22-1.png?alt=media&token=79582407-dace-4874-b95c-8af5cf52f9f2",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID22-2.png?alt=media&token=d41dce7d-b145-49ab-bf90-289d1bf5903b",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID22-3.png?alt=media&token=55adafbe-02b7-4523-8488-6244f3bbf86b"
+            
           ],
           "description": "Tulsi is a sacred herb in Indian culture, revered for its ability to promote respiratory health, boost immunity, and relieve stress. It thrives in full sun and well-drained soil.",
           "type": "Herb",
@@ -466,17 +442,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Sacred"]
         },
-        "documentID23": {
+       {
           "hindiName": "Ashwagandha",
           "englishName": "Winter Cherry",
           "botanicalName": "Withania somnifera",
           "uses": ["Stress Relief", "Energy Boost", "Immunity"],
           "imageUrls": [
-            "https://example.com/images/ashwagandha1.jpg",
-            "https://example.com/images/ashwagandha2.jpg",
-            "https://example.com/images/ashwagandha3.jpg",
-            "https://example.com/images/ashwagandha4.jpg",
-            "https://example.com/images/ashwagandha5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID23-1.png?alt=media&token=46478899-840b-4089-90d3-52cfd751abf2",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID23-2.png?alt=media&token=460aa706-ef9b-4f39-bded-553dfa38ecb2",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID23-3.png?alt=media&token=4d6ca5f7-86c2-45cb-915d-dd9e3c48c1ca"
+            
           ],
           "description": "Ashwagandha is a powerful adaptogenic herb known for its ability to reduce stress, boost energy, and enhance immunity. It grows best in loamy soil with full sun.",
           "type": "Herb",
@@ -487,17 +462,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Adaptogenic"]
         },
-        "documentID24": {
+    {
           "hindiName": "Gokhru",
           "englishName": "Puncture Vine",
           "botanicalName": "Tribulus terrestris",
           "uses": ["Kidney Health", "Libido", "Muscle Strength"],
           "imageUrls": [
-            "https://example.com/images/gokhru1.jpg",
-            "https://example.com/images/gokhru2.jpg",
-            "https://example.com/images/gokhru3.jpg",
-            "https://example.com/images/gokhru4.jpg",
-            "https://example.com/images/gokhru5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID24-1.png?alt=media&token=9ea4ec96-5110-433c-ab7e-f64305fbef27",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID24-2.png?alt=media&token=27e5a63d-dbb3-4ffb-a0ed-ff2a674f6f7e",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID24-3.png?alt=media&token=c43832ce-2bfa-442f-b233-327480ebb61e"
+           
           ],
           "description": "Gokhru is a herb known for its benefits in supporting kidney health, enhancing libido, and improving muscle strength. It grows in sandy soil with full sun exposure.",
           "type": "Herb",
@@ -508,17 +482,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Tonic"]
         },
-        "documentID25": {
+        {
           "hindiName": "Manjistha",
           "englishName": "Indian Madder",
           "botanicalName": "Rubia cordifolia",
           "uses": ["Skin Health", "Blood Purification", "Detoxification"],
           "imageUrls": [
-            "https://example.com/images/manjistha1.jpg",
-            "https://example.com/images/manjistha2.jpg",
-            "https://example.com/images/manjistha3.jpg",
-            "https://example.com/images/manjistha4.jpg",
-            "https://example.com/images/manjistha5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID25-1.png?alt=media&token=dad5de5b-f2fe-4074-b766-cfcb6f4fb809",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID25-2.png?alt=media&token=12e52d91-e2fc-4383-9895-d2ff92658100",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID25-3.png?alt=media&token=636836f0-3bd9-40ac-9e4c-9104169d495d"
+            
           ],
           "description": "Manjistha is a well-known herb in Ayurveda for its powerful blood-purifying and detoxifying properties. It is commonly used to promote clear and healthy skin.",
           "type": "Climber",
@@ -529,17 +502,15 @@
           "region": "Subtropical",
           "tags": ["Medicinal", "Detox"]
         },
-        "documentID26": {
+     {
           "hindiName": "Giloy",
           "englishName": "Heart-leaved Moonseed",
           "botanicalName": "Tinospora cordifolia",
           "uses": ["Immunity", "Fever", "Detoxification"],
           "imageUrls": [
-            "https://example.com/images/giloy1.jpg",
-            "https://example.com/images/giloy2.jpg",
-            "https://example.com/images/giloy3.jpg",
-            "https://example.com/images/giloy4.jpg",
-            "https://example.com/images/giloy5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID26-1.png?alt=media&token=2039d606-ea3c-4a7a-b23d-2b02521bcd1c",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID26-2.png?alt=media&token=182a797b-62e9-4343-97a3-13c51a1e0e49",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID26-3.png?alt=media&token=32ae8d6a-5273-439b-99fa-248a6556b1ab"
           ],
           "description": "Giloy is a highly revered herb in Ayurveda, known for its immune-boosting, fever-reducing, and detoxifying properties. It grows as a climber and thrives in loamy soil.",
           "type": "Climber",
@@ -550,17 +521,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Immunity"]
         },
-        "documentID27": {
+     {
           "hindiName": "Brahmi",
           "englishName": "Water Hyssop",
           "botanicalName": "Bacopa monnieri",
           "uses": ["Memory", "Stress Relief", "Brain Health"],
           "imageUrls": [
-            "https://example.com/images/brahmi1.jpg",
-            "https://example.com/images/brahmi2.jpg",
-            "https://example.com/images/brahmi3.jpg",
-            "https://example.com/images/brahmi4.jpg",
-            "https://example.com/images/brahmi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID27-1.png?alt=media&token=2aaaf71f-1f10-4b0d-8a14-e676ac947cb2",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID27-2.png?alt=media&token=fbf7894a-239b-41f6-a243-a657e7182723",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID27-3.png?alt=media&token=b617e757-d35e-4cec-906a-66407e9702c1"
+            
           ],
           "description": "Brahmi is a traditional herb known for its brain-boosting properties, enhancing memory, reducing stress, and promoting overall brain health. It grows well in wet, marshy areas.",
           "type": "Herb",
@@ -571,17 +541,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Nootropic"]
         },
-        "documentID28": {
+         {
           "hindiName": "Nagarmotha",
           "englishName": "Nut Grass",
           "botanicalName": "Cyperus rotundus",
           "uses": ["Digestion", "Weight Loss", "Skin Health"],
           "imageUrls": [
-            "https://example.com/images/nagarmotha1.jpg",
-            "https://example.com/images/nagarmotha2.jpg",
-            "https://example.com/images/nagarmotha3.jpg",
-            "https://example.com/images/nagarmotha4.jpg",
-            "https://example.com/images/nagarmotha5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID28-1.png?alt=media&token=2d9cc434-e020-4be3-8316-e47febb793f6",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID28-2.png?alt=media&token=caff43ed-4b0d-4995-a558-39028143afe7",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID28-3.png?alt=media&token=d8307505-e9e3-4fda-b7f4-eeb00d1eefca"
+            
           ],
           "description": "Nagarmotha is a herb known for its digestive and weight loss benefits, as well as its use in enhancing skin health. It thrives in sandy soil with full sun exposure.",
           "type": "Herb",
@@ -592,17 +561,16 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Digestive"]
         },
-        "documentID29": {
+      {
           "hindiName": "Mulethi",
           "englishName": "Licorice",
           "botanicalName": "Glycyrrhiza glabra",
           "uses": ["Respiratory Health", "Digestion", "Immunity"],
           "imageUrls": [
-            "https://example.com/images/mulethi1.jpg",
-            "https://example.com/images/mulethi2.jpg",
-            "https://example.com/images/mulethi3.jpg",
-            "https://example.com/images/mulethi4.jpg",
-            "https://example.com/images/mulethi5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID29-1.png?alt=media&token=566f4e00-c847-4c35-8c5a-46f6b4296862",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID29-2.png?alt=media&token=6f2f1056-cc58-4844-997a-17e375213a6a",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID29-3.png?alt=media&token=85e471a5-a879-45ac-a01d-70b3dd68c3ee"
+           
           ],
           "description": "Mulethi, or Licorice, is a popular herb known for its soothing effects on the respiratory system, aiding in digestion, and boosting immunity. It prefers loamy soil with partial shade.",
           "type": "Herb",
@@ -613,17 +581,16 @@
           "region": "Temperate",
           "tags": ["Medicinal", "Soothing"]
         },
-        "documentID30": {
+         {
           "hindiName": "Kalmegh",
           "englishName": "King of Bitters",
           "botanicalName": "Andrographis paniculata",
           "uses": ["Liver Health", "Immunity", "Detoxification"],
           "imageUrls": [
-            "https://example.com/images/kalmegh1.jpg",
-            "https://example.com/images/kalmegh2.jpg",
-            "https://example.com/images/kalmegh3.jpg",
-            "https://example.com/images/kalmegh4.jpg",
-            "https://example.com/images/kalmegh5.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID30-1.png?alt=media&token=856dab2c-c8ff-4ba1-8cb0-2a78f1353a51",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID30-2.png?alt=media&token=60b5a867-a7ca-41b8-a51c-9e11d11801f8",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID30-3.png?alt=media&token=c5301b51-cf62-47dd-b9f0-014e9152db52"
+           
           ],
           "description": "Kalmegh is a potent herb used in traditional medicine for liver health, boosting immunity, and detoxification. It grows well in loamy soil with partial shade.",
           "type": "Herb",
@@ -636,17 +603,15 @@
         },
 
         
-            "documentID31": {
+          {
               "hindiName": "Shatavari",
               "englishName": "Wild Asparagus",
               "botanicalName": "Asparagus racemosus",
               "uses": ["Women's Health", "Immunity", "Digestion"],
               "imageUrls": [
-                "https://example.com/images/shatavari1.jpg",
-                "https://example.com/images/shatavari2.jpg",
-                "https://example.com/images/shatavari3.jpg",
-                "https://example.com/images/shatavari4.jpg",
-                "https://example.com/images/shatavari5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID31-1.png?alt=media&token=df2ecbd9-eec8-42ec-a8df-69ffd434281a",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID31-2.png?alt=media&token=a86a359a-8f59-4f7e-8301-710788e5574e",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID31-3.png?alt=media&token=1d3f2e4f-6e13-49c1-85bb-e0523d3c9684"
               ],
               "description": "Shatavari is an adaptogenic herb known for supporting women's health, boosting immunity, and aiding digestion. It prefers sandy loam soil with partial shade.",
               "type": "Herb",
@@ -657,15 +622,15 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Women's Health"]
             },
-            "documentID32": {
+            {
               "hindiName": "Ajwain",
               "englishName": "Carom Seeds",
               "botanicalName": "Trachyspermum ammi",
               "uses": ["Digestion", "Respiratory Health", "Immunity"],
               "imageUrls": [
-                "https://example.com/images/ajwain1.jpg",
-                "https://example.com/images/ajwain2.jpg",
-                "https://example.com/images/ajwain3.jpg",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID32-1.png?alt=media&token=3bfb4c06-38d3-4b68-ae2f-bd9c74c891e5",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID32-2.png?alt=media&token=cbab9a59-869e-4c16-98e3-47c5bac7d2ac",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID32-3.png?alt=media&token=2fa705e9-fc44-4f6e-b0d1-cfbaff688a8b",
                 "https://example.com/images/ajwain4.jpg",
                 "https://example.com/images/ajwain5.jpg"
               ],
@@ -678,15 +643,15 @@
               "region": "Temperate",
               "tags": ["Medicinal", "Spice"]
             },
-            "documentID33": {
+           {
               "hindiName": "Moringa",
               "englishName": "Drumstick Tree",
               "botanicalName": "Moringa oleifera",
               "uses": ["Nutrition", "Immunity", "Energy Boost"],
               "imageUrls": [
-                "https://example.com/images/moringa1.jpg",
-                "https://example.com/images/moringa2.jpg",
-                "https://example.com/images/moringa3.jpg",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID33-1.png?alt=media&token=e3a996e3-8b4f-46c5-9a21-436b5c84787d",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID33-2.png?alt=media&token=526d30d9-d72a-4c61-a5a8-4f1a3318ed78",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID33-3.png?alt=media&token=7d6cd859-f6fc-4829-b3cf-61973acf7d2d",
                 "https://example.com/images/moringa4.jpg",
                 "https://example.com/images/moringa5.jpg"
               ],
@@ -699,17 +664,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Nutritious"]
             },
-            "documentID34": {
+           {
               "hindiName": "Arjuna",
               "englishName": "Arjuna Tree",
               "botanicalName": "Terminalia arjuna",
               "uses": ["Heart Health", "Blood Pressure", "Liver Health"],
               "imageUrls": [
-                "https://example.com/images/arjuna1.jpg",
-                "https://example.com/images/arjuna2.jpg",
-                "https://example.com/images/arjuna3.jpg",
-                "https://example.com/images/arjuna4.jpg",
-                "https://example.com/images/arjuna5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID34-1.png?alt=media&token=b44d478b-b0d2-47c7-b1ad-48f7191666dd",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID34-2.png?alt=media&token=13915ad1-fac4-4311-a951-5cdd47b7f97d",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID34-3.png?alt=media&token=137c841b-f6ee-4eea-8666-1cc93bf753cb"
+               
               ],
               "description": "Arjuna is a medicinal tree known for its benefits in supporting heart health, regulating blood pressure, and improving liver function. It thrives in sandy loam soil with full sun.",
               "type": "Tree",
@@ -720,17 +684,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Cardiac"]
             },
-            "documentID35": {
+        {
               "hindiName": "Jatamansi",
               "englishName": "Spikenard",
               "botanicalName": "Nardostachys jatamansi",
               "uses": ["Calming", "Stress Relief", "Sleep Aid"],
               "imageUrls": [
-                "https://example.com/images/jatamansi1.jpg",
-                "https://example.com/images/jatamansi2.jpg",
-                "https://example.com/images/jatamansi3.jpg",
-                "https://example.com/images/jatamansi4.jpg",
-                "https://example.com/images/jatamansi5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID35-1.png?alt=media&token=ad6c6329-221c-4593-b61f-34a4c85ea5c4",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID35-2.png?alt=media&token=11b2f18e-d479-44da-9525-ea68b0438ae9",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID35-3.png?alt=media&token=e37dcbe0-7f07-4342-a1e4-34b80b81d51e"
+               
               ],
               "description": "Jatamansi is an aromatic herb used for its calming effects, stress relief, and as a sleep aid. It grows in loamy soil with partial shade and requires regular watering.",
               "type": "Herb",
@@ -741,17 +704,16 @@
               "region": "Himalayan",
               "tags": ["Medicinal", "Calming"]
             },
-            "documentID36": {
+          {
               "hindiName": "Rakta Chandana",
               "englishName": "Red Sandalwood",
               "botanicalName": "Pterocarpus santalinus",
               "uses": ["Skin Care", "Anti-inflammatory", "Blood Purification"],
               "imageUrls": [
-                "https://example.com/images/raktachandana1.jpg",
-                "https://example.com/images/raktachandana2.jpg",
-                "https://example.com/images/raktachandana3.jpg",
-                "https://example.com/images/raktachandana4.jpg",
-                "https://example.com/images/raktachandana5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID36-1.png?alt=media&token=8449cf8b-d10b-4ea8-9618-80c5b17128e7",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID36-2.png?alt=media&token=50aa9fa9-c08e-49a9-a43d-71613b8027cd",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID36-3.png?alt=media&token=16398bbd-acf2-42f3-a05f-5f289bad50fd"
+                
               ],
               "description": "Rakta Chandana, or Red Sandalwood, is a valuable tree used for its skin care benefits, anti-inflammatory properties, and blood purification. It prefers loamy soil and full sun exposure.",
               "type": "Tree",
@@ -762,17 +724,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Skin Care"]
             },
-            "documentID37": {
+          {
               "hindiName": "Guggul",
               "englishName": "Indian Bdellium",
               "botanicalName": "Commiphora wightii",
               "uses": ["Cholesterol Management", "Weight Loss", "Arthritis Relief"],
               "imageUrls": [
-                "https://example.com/images/guggul1.jpg",
-                "https://example.com/images/guggul2.jpg",
-                "https://example.com/images/guggul3.jpg",
-                "https://example.com/images/guggul4.jpg",
-                "https://example.com/images/guggul5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID37-1.png?alt=media&token=14600166-fd16-4fd5-84c2-c39c1de61859",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID37-2.png?alt=media&token=46cd905f-a14a-4964-bb27-b1d684c0adb1",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID37-3.png?alt=media&token=cf63be2e-f38b-42aa-9405-8b8f3f063f38"
+                
               ],
               "description": "Guggul is a resinous herb used in Ayurveda for managing cholesterol, aiding weight loss, and providing relief from arthritis. It grows well in sandy soil with full sun.",
               "type": "Herb",
@@ -783,17 +744,16 @@
               "region": "Desert",
               "tags": ["Medicinal", "Resin"]
             },
-            "documentID38": {
+            {
               "hindiName": "Kapur Kachri",
               "englishName": "Spiked Ginger Lily",
               "botanicalName": "Hedychium spicatum",
               "uses": ["Respiratory Health", "Aromatherapy", "Digestive Aid"],
               "imageUrls": [
-                "https://example.com/images/kapurkachri1.jpg",
-                "https://example.com/images/kapurkachri2.jpg",
-                "https://example.com/images/kapurkachri3.jpg",
-                "https://example.com/images/kapurkachri4.jpg",
-                "https://example.com/images/kapurkachri5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID38-1.png?alt=media&token=8810a61a-dc0d-4063-96c5-5ed20e7651a9",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID38-2.png?alt=media&token=cca02358-8d8a-4760-b3d0-a61adebbcd41",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID38-3.png?alt=media&token=2c80255b-488c-40f2-8e5c-cfca0b3a1497"
+                
               ],
               "description": "Kapur Kachri, also known as Spiked Ginger Lily, is an aromatic herb used for its respiratory health benefits, in aromatherapy, and as a digestive aid. It thrives in loamy soil with partial shade.",
               "type": "Herb",
@@ -804,17 +764,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Aromatic"]
             },
-            "documentID39": {
+          {
               "hindiName": "Bhumi Amla",
               "englishName": "Stonebreaker",
               "botanicalName": "Phyllanthus niruri",
               "uses": ["Liver Health", "Kidney Health", "Detoxification"],
               "imageUrls": [
-                "https://example.com/images/bhumiamla1.jpg",
-                "https://example.com/images/bhumiamla2.jpg",
-                "https://example.com/images/bhumiamla3.jpg",
-                "https://example.com/images/bhumiamla4.jpg",
-                "https://example.com/images/bhumiamla5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID39-1.png?alt=media&token=01e9fd17-e92b-478f-ab12-9a721fd952e6",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID39-2.png?alt=media&token=1b51c5a2-67f6-4c45-b010-58e9fd84a7d1",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID39-3.png?alt=media&token=0f8e0682-834d-469d-865a-3e06e18b1d78"
+               
               ],
               "description": "Bhumi Amla is a small herb known for its benefits in supporting liver health, kidney health, and detoxification. It grows well in sandy loam soil with full sun.",
               "type": "Herb",
@@ -825,17 +784,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Liver Health"]
             },
-            "documentID40": {
+          {
               "hindiName": "Shankhpushpi",
               "englishName": "Aloeweed",
               "botanicalName": "Convolvulus pluricaulis",
               "uses": ["Brain Health", "Memory", "Stress Relief"],
               "imageUrls": [
-                "https://example.com/images/shankhpushpi1.jpg",
-                "https://example.com/images/shankhpushpi2.jpg",
-                "https://example.com/images/shankhpushpi3.jpg",
-                "https://example.com/images/shankhpushpi4.jpg",
-                "https://example.com/images/shankhpushpi5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID40-1.png?alt=media&token=2edadf67-aac5-4e27-a501-01d183d931b4",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID40-2.png?alt=media&token=3f0118ce-3115-49cc-b232-e8ce6b1d8b72",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID40-3.png?alt=media&token=adf92b77-2149-4ed1-868f-21bf6c1d47a6"
+              
               ],
               "description": "Shankhpushpi is an herb valued for its ability to enhance brain health, improve memory, and relieve stress. It thrives in loamy soil with partial shade and requires regular watering.",
               "type": "Herb",
@@ -846,17 +804,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Brain Health"]
             },
-            "documentID41": {
+            {
               "hindiName": "Vasaka",
               "englishName": "Malabar Nut",
               "botanicalName": "Justicia adhatoda",
               "uses": ["Respiratory Health", "Cough Relief", "Bronchitis"],
               "imageUrls": [
-                "https://example.com/images/vasaka1.jpg",
-                "https://example.com/images/vasaka2.jpg",
-                "https://example.com/images/vasaka3.jpg",
-                "https://example.com/images/vasaka4.jpg",
-                "https://example.com/images/vasaka5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID41-1..png?alt=media&token=9bc6442f-d99a-4045-a905-24b7544f5c09",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID41-2.png?alt=media&token=f5ca24cb-302d-4716-94c4-5ece0facb17b",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID41-3.png?alt=media&token=b50523d3-3b39-4c88-85d7-823ea749daf2"
+                
               ],
               "description": "Vasaka is a medicinal shrub used for its benefits in treating respiratory issues, providing cough relief, and managing bronchitis. It grows well in loamy soil with full sun.",
               "type": "Shrub",
@@ -867,17 +824,16 @@
               "region": "Subtropical",
               "tags": ["Medicinal", "Respiratory Health"]
             },
-            "documentID42": {
+           {
               "hindiName": "Gokshura",
               "englishName": "Puncture Vine",
               "botanicalName": "Tribulus terrestris",
               "uses": ["Kidney Health", "Urinary Health", "Reproductive Health"],
               "imageUrls": [
-                "https://example.com/images/gokshura1.jpg",
-                "https://example.com/images/gokshura2.jpg",
-                "https://example.com/images/gokshura3.jpg",
-                "https://example.com/images/gokshura4.jpg",
-                "https://example.com/images/gokshura5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID42-1.png?alt=media&token=cdc46009-726c-45e1-86f0-f46a4503abd5",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID42-2.png?alt=media&token=5fc9124a-9813-4a52-8bf6-c8d9c114c868",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID42-3.png?alt=media&token=5e805635-2a4e-4495-bf1d-a3e0f884f7a9"
+               
               ],
               "description": "Gokshura is a herb known for its benefits in promoting kidney health, urinary health, and reproductive health. It grows well in sandy loam soil with full sun exposure.",
               "type": "Herb",
@@ -888,17 +844,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Kidney Health"]
             },
-            "documentID43": {
+         {
               "hindiName": "Brahmi",
               "englishName": "Waterhyssop",
               "botanicalName": "Bacopa monnieri",
               "uses": ["Brain Health", "Memory Enhancement", "Anxiety Relief"],
               "imageUrls": [
-                "https://example.com/images/brahmi1.jpg",
-                "https://example.com/images/brahmi2.jpg",
-                "https://example.com/images/brahmi3.jpg",
-                "https://example.com/images/brahmi4.jpg",
-                "https://example.com/images/brahmi5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID43-1.png?alt=media&token=2dbc72ad-9100-43b9-892c-937b61182303",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID43-2.png?alt=media&token=2e4d8b43-84b3-43c1-8176-8c6a6ba227ff",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID43-3.png?alt=media&token=423afd9b-61e5-4778-af8b-2953e6b6b5a1"
+                
               ],
               "description": "Brahmi is an herb revered for its brain health benefits, particularly in enhancing memory and relieving anxiety. It thrives in wet, marshy soil with partial sun.",
               "type": "Herb",
@@ -909,17 +864,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Brain Health"]
             },
-            "documentID44": {
+       {
               "hindiName": "Punarnava",
               "englishName": "Spreading Hogweed",
               "botanicalName": "Boerhavia diffusa",
               "uses": ["Kidney Health", "Liver Health", "Diuretic"],
               "imageUrls": [
-                "https://example.com/images/punarnava1.jpg",
-                "https://example.com/images/punarnava2.jpg",
-                "https://example.com/images/punarnava3.jpg",
-                "https://example.com/images/punarnava4.jpg",
-                "https://example.com/images/punarnava5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID44-1.png?alt=media&token=ef331e8b-06f6-4857-9e0b-a0420ae39ee8",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID44-2.png?alt=media&token=b4c5e049-13aa-49fd-955b-f400dbd7adc6",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID44-3.png?alt=media&token=08e03c65-ddcd-489f-9fa5-221815c5a534"
+                
               ],
               "description": "Punarnava is an herb known for its diuretic properties and benefits to kidney and liver health. It grows well in loamy soil with full sun exposure.",
               "type": "Herb",
@@ -930,17 +884,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Diuretic"]
             },
-            "documentID45": {
+        {
               "hindiName": "Chirata",
               "englishName": "Swertia",
               "botanicalName": "Swertia chirata",
               "uses": ["Fever Relief", "Detoxification", "Liver Health"],
               "imageUrls": [
-                "https://example.com/images/chirata1.jpg",
-                "https://example.com/images/chirata2.jpg",
-                "https://example.com/images/chirata3.jpg",
-                "https://example.com/images/chirata4.jpg",
-                "https://example.com/images/chirata5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID45-1.png?alt=media&token=5da5efb4-2d38-4a3d-a1cb-db54634e8300",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID45-2.png?alt=media&token=0d9d4f1c-a296-4953-9611-fcfe0db40a43",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID5-3.png?alt=media&token=10952798-266e-4a66-9ef1-05e18cae6d6c"
+               
               ],
               "description": "Chirata is a bitter herb used traditionally for fever relief, detoxification, and improving liver health. It grows well in sandy loam soil with full sun exposure.",
               "type": "Herb",
@@ -951,17 +904,16 @@
               "region": "Himalayan",
               "tags": ["Medicinal", "Bitter"]
             },
-            "documentID46": {
+           {
               "hindiName": "Ashwagandha",
               "englishName": "Winter Cherry",
               "botanicalName": "Withania somnifera",
               "uses": ["Stress Relief", "Immunity", "Energy Boost"],
               "imageUrls": [
-                "https://example.com/images/ashwagandha1.jpg",
-                "https://example.com/images/ashwagandha2.jpg",
-                "https://example.com/images/ashwagandha3.jpg",
-                "https://example.com/images/ashwagandha4.jpg",
-                "https://example.com/images/ashwagandha5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID46-1.png?alt=media&token=98b25cfd-9e8a-49ad-a48f-9f84f681debe",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID46-2.png?alt=media&token=18bccf83-a445-474b-bb78-11ca3bfb3787",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID46-3.png?alt=media&token=a7a7abb7-e274-410d-b931-47cf2cac570e"
+                
               ],
               "description": "Ashwagandha, also known as Winter Cherry, is an adaptogen used for stress relief, boosting immunity, and enhancing energy. It thrives in sandy soil with full sun exposure.",
               "type": "Herb",
@@ -972,17 +924,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Adaptogen"]
             },
-            "documentID47": {
+           {
               "hindiName": "Aloe Vera",
               "englishName": "Aloe",
               "botanicalName": "Aloe barbadensis miller",
               "uses": ["Skin Care", "Digestive Health", "Detoxification"],
               "imageUrls": [
-                "https://example.com/images/aloevera1.jpg",
-                "https://example.com/images/aloevera2.jpg",
-                "https://example.com/images/aloevera3.jpg",
-                "https://example.com/images/aloevera4.jpg",
-                "https://example.com/images/aloevera5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID47-1.png?alt=media&token=4f35953d-3926-4563-8138-ce3d96ee0ed7",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID47-2.png?alt=media&token=cd8163f7-0ea6-48fd-98d0-9ef5a7329845",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID47-3.png?alt=media&token=4e0b440f-fe12-468c-923a-ddb57889b0f7"
+                
               ],
               "description": "Aloe Vera is a succulent plant known for its soothing properties for skin care, promoting digestive health, and detoxifying the body. It thrives in well-drained sandy soil with full sun exposure.",
               "type": "Succulent",
@@ -993,17 +944,16 @@
               "region": "Subtropical",
               "tags": ["Medicinal", "Skin Care"]
             },
-            "documentID48": {
+          {
               "hindiName": "Giloy",
               "englishName": "Heart-leaved Moonseed",
               "botanicalName": "Tinospora cordifolia",
               "uses": ["Immunity Boost", "Fever Relief", "Detoxification"],
               "imageUrls": [
-                "https://example.com/images/giloy1.jpg",
-                "https://example.com/images/giloy2.jpg",
-                "https://example.com/images/giloy3.jpg",
-                "https://example.com/images/giloy4.jpg",
-                "https://example.com/images/giloy5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID48-1.png?alt=media&token=9f8cb2e6-1381-4647-ba1c-ba2ceedbde88",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID48-2.png?alt=media&token=f4353c83-92bd-450e-aea9-fb1128face78",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID48-3.png?alt=media&token=b053a176-d159-4ead-9993-9742d4f177c8"
+                
               ],
               "description": "Giloy is a climber plant recognized for its immune-boosting, fever-relieving, and detoxifying properties. It grows well in loamy soil with partial shade.",
               "type": "Climber",
@@ -1014,17 +964,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Immunity Boost"]
             },
-            "documentID49": {
+           {
               "hindiName": "Arjuna",
               "englishName": "Arjuna Tree",
               "botanicalName": "Terminalia arjuna",
               "uses": ["Heart Health", "Cardiovascular Health", "Blood Pressure"],
               "imageUrls": [
-                "https://example.com/images/arjuna1.jpg",
-                "https://example.com/images/arjuna2.jpg",
-                "https://example.com/images/arjuna3.jpg",
-                "https://example.com/images/arjuna4.jpg",
-                "https://example.com/images/arjuna5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID49-1.png?alt=media&token=245524c4-bdbc-4c72-b759-9ab84bf23346",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID49-2.png?alt=media&token=f4afb75e-2f87-484d-bef8-83aa18c66512",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID49-3.png?alt=media&token=54731b8a-888b-42a7-8025-3f58a2b40c43"
+                
               ],
               "description": "Arjuna is a tree widely known for its benefits to heart health, cardiovascular health, and managing blood pressure. It grows well in loamy soil with full sun exposure.",
               "type": "Tree",
@@ -1035,17 +984,16 @@
               "region": "Tropical",
               "tags": ["Medicinal", "Heart Health"]
             },
-            "documentID50": {
+            {
               "hindiName": "Kalonji",
               "englishName": "Black Cumin",
               "botanicalName": "Nigella sativa",
               "uses": ["Digestive Health", "Immunity Boost", "Anti-inflammatory"],
               "imageUrls": [
-                "https://example.com/images/kalonji1.jpg",
-                "https://example.com/images/kalonji2.jpg",
-                "https://example.com/images/kalonji3.jpg",
-                "https://example.com/images/kalonji4.jpg",
-                "https://example.com/images/kalonji5.jpg"
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID50-1.png?alt=media&token=dd4d7959-c21b-4e61-b25f-cc9f20fb84bf",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID50-2.png?alt=media&token=cb26d024-2fe7-4101-849a-5e222a92b746",
+                "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID50-3.png?alt=media&token=d99322c1-47ff-4d84-abd5-5eb5007aa474"
+                
               ],
               "description": "Kalonji, also known as Black Cumin, is a flowering plant used for its digestive health benefits, boosting immunity, and anti-inflammatory properties. It grows well in loamy soil with full sun exposure.",
               "type": "Flowering Plant",
@@ -1058,17 +1006,16 @@
             },
           
             
-                "documentID59": {
+             {
                   "hindiName": "Guduchi",
                   "englishName": "Heart-leaved Moonseed",
                   "botanicalName": "Tinospora cordifolia",
                   "uses": ["Immunity Boost", "Fever Relief", "Detoxification"],
                   "imageUrls": [
-                    "https://example.com/images/guduchi1.jpg",
-                    "https://example.com/images/guduchi2.jpg",
-                    "https://example.com/images/guduchi3.jpg",
-                    "https://example.com/images/guduchi4.jpg",
-                    "https://example.com/images/guduchi5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID59-1.png?alt=media&token=4ed57696-f517-4ab2-834f-11c12e405955",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID59-2.png?alt=media&token=a9b7eaaa-d319-487d-bbab-c5a237d96608",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID59-3.png?alt=media&token=02a9a378-4992-4136-ad9a-59aa5d403e21"
+                    
                   ],
                   "description": "Guduchi is known for its strong immune-boosting properties, fever relief, and detoxification benefits. It grows best in well-drained soil with partial shade.",
                   "type": "Climber",
@@ -1079,17 +1026,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Immunity Boost"]
                 },
-                "documentID60": {
+              {
                   "hindiName": "Haritaki",
                   "englishName": "Chebulic Myrobalan",
                   "botanicalName": "Terminalia chebula",
                   "uses": ["Digestive Health", "Detoxification", "Anti-aging"],
                   "imageUrls": [
-                    "https://example.com/images/haritaki1.jpg",
-                    "https://example.com/images/haritaki2.jpg",
-                    "https://example.com/images/haritaki3.jpg",
-                    "https://example.com/images/haritaki4.jpg",
-                    "https://example.com/images/haritaki5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID60-1.png?alt=media&token=ca771885-3a0e-4529-9cc8-bb7c93b1c367",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID60-2.png?alt=media&token=2f292209-d256-43d9-8ad7-7eac0a9001c5",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumentID60-3.png?alt=media&token=7403875f-0724-46f9-8b24-8be15e89b06f"
+                    
                   ],
                   "description": "Haritaki is renowned for its digestive health benefits, detoxification, and anti-aging properties. It thrives in dry, sandy soil with full sun exposure.",
                   "type": "Tree",
@@ -1100,17 +1046,15 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Digestive Health"]
                 },
-                "documentID61": {
+                {
                   "hindiName": "Kalmegh",
                   "englishName": "King of Bitters",
                   "botanicalName": "Andrographis paniculata",
                   "uses": ["Liver Health", "Cold Relief", "Immune Support"],
                   "imageUrls": [
-                    "https://example.com/images/kalmegh1.jpg",
-                    "https://example.com/images/kalmegh2.jpg",
-                    "https://example.com/images/kalmegh3.jpg",
-                    "https://example.com/images/kalmegh4.jpg",
-                    "https://example.com/images/kalmegh5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID61-1.png?alt=media&token=1d667007-802c-4986-883d-e48248d2aaa6",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdoucmentID61-2.png?alt=media&token=51fc45ef-7e30-4289-a321-59283a39babf",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID61-3.png?alt=media&token=2b7c9f21-396e-48cb-a6ce-0b3258ec3302"
                   ],
                   "description": "Kalmegh is known for its liver health benefits, cold relief, and immune support. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1121,17 +1065,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Liver Health"]
                 },
-                "documentID62": {
+               {
                   "hindiName": "Kalonji",
                   "englishName": "Nigella",
                   "botanicalName": "Nigella sativa",
                   "uses": ["Digestive Health", "Immune Boost", "Anti-inflammatory"],
                   "imageUrls": [
-                    "https://example.com/images/kalonji1.jpg",
-                    "https://example.com/images/kalonji2.jpg",
-                    "https://example.com/images/kalonji3.jpg",
-                    "https://example.com/images/kalonji4.jpg",
-                    "https://example.com/images/kalonji5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID62-1.png?alt=media&token=7a37abe3-380d-40e7-9592-4eed35da50d1",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID62-2.png?alt=media&token=3c2c6105-e1c0-43d8-b5a5-c98f0c38812f",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID62-3.png?alt=media&token=83c79a7c-6294-4004-9f0d-a92d32ea73db"
+                    
                   ],
                   "description": "Kalonji, or Nigella, is valued for its digestive health benefits, immune boosting properties, and anti-inflammatory effects. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1142,17 +1085,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Digestive Health"]
                 },
-                "documentID63": {
+       {
                   "hindiName": "Psyllium",
                   "englishName": "Isabgol",
                   "botanicalName": "Plantago ovata",
                   "uses": ["Digestive Health", "Constipation Relief", "Cholesterol Management"],
                   "imageUrls": [
-                    "https://example.com/images/psyllium1.jpg",
-                    "https://example.com/images/psyllium2.jpg",
-                    "https://example.com/images/psyllium3.jpg",
-                    "https://example.com/images/psyllium4.jpg",
-                    "https://example.com/images/psyllium5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID63-1.png?alt=media&token=64b889a8-82ba-4edb-9c2e-d4cfcb2c1daf",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID63-2.png?alt=media&token=3e279e7a-15ec-49f9-9b0b-e1af7e53ca0e",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID63-3.png?alt=media&token=c5211c74-01e9-4869-8c47-9e459cd4a1cc"
+                    
                   ],
                   "description": "Psyllium, also known as Isabgol, is used for its benefits in digestive health, constipation relief, and cholesterol management. It grows best in sandy soil with full sun exposure.",
                   "type": "Herb",
@@ -1163,17 +1105,15 @@
                   "region": "Subtropical",
                   "tags": ["Medicinal", "Digestive Health"]
                 },
-                "documentID64": {
+              {
                   "hindiName": "Sarpagandha",
                   "englishName": "Rauwolfia",
                   "botanicalName": "Rauvolfia serpentina",
                   "uses": ["Blood Pressure Regulation", "Anti-anxiety", "Insomnia Relief"],
                   "imageUrls": [
-                    "https://example.com/images/sarpagandha1.jpg",
-                    "https://example.com/images/sarpagandha2.jpg",
-                    "https://example.com/images/sarpagandha3.jpg",
-                    "https://example.com/images/sarpagandha4.jpg",
-                    "https://example.com/images/sarpagandha5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID64-1.png?alt=media&token=11d6eb38-6151-4a2e-ac61-5bb05ec1ec2b",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID64-2.png?alt=media&token=c214b222-cd4c-455a-9498-9cffddabe10c",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID64-3.png?alt=media&token=36ad050f-22ed-4407-a97c-5181460caeae"
                   ],
                   "description": "Sarpagandha is known for its ability to regulate blood pressure, relieve anxiety, and treat insomnia. It thrives in well-drained soil with partial shade.",
                   "type": "Shrub",
@@ -1184,17 +1124,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Blood Pressure"]
                 },
-                "documentID65": {
+             {
                   "hindiName": "Jatamansi",
                   "englishName": "Spikenard",
                   "botanicalName": "Nardostachys jatamansi",
                   "uses": ["Stress Relief", "Sleep Aid", "Anti-anxiety"],
                   "imageUrls": [
-                    "https://example.com/images/jatamansi1.jpg",
-                    "https://example.com/images/jatamansi2.jpg",
-                    "https://example.com/images/jatamansi3.jpg",
-                    "https://example.com/images/jatamansi4.jpg",
-                    "https://example.com/images/jatamansi5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID65-1.png?alt=media&token=ff9e9ebc-7990-4191-8ba4-716f71cbdc3b",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID65-2.png?alt=media&token=3f300620-fca9-4286-a28c-114bc4250924",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdoucmentID65-3.png?alt=media&token=2ebd38f3-0c40-4690-a8d0-410b50c0ac5f"
+                    
                   ],
                   "description": "Jatamansi, or Spikenard, is valued for its stress relief, sleep aid, and anti-anxiety properties. It grows well in cool, well-drained soil with partial shade.",
                   "type": "Herb",
@@ -1205,17 +1144,16 @@
                   "region": "Himalayan",
                   "tags": ["Medicinal", "Stress Relief"]
                 },
-                "documentID66": {
+                {
                   "hindiName": "Amla",
                   "englishName": "Indian Gooseberry",
                   "botanicalName": "Phyllanthus emblica",
                   "uses": ["Immunity Boost", "Anti-aging", "Digestive Health"],
                   "imageUrls": [
-                    "https://example.com/images/amla1.jpg",
-                    "https://example.com/images/amla2.jpg",
-                    "https://example.com/images/amla3.jpg",
-                    "https://example.com/images/amla4.jpg",
-                    "https://example.com/images/amla5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID66-1.png?alt=media&token=99a20273-b9cb-42c4-8b1e-45c17c1f697d",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID66-2.png?alt=media&token=9100b52d-0778-470b-bdb8-13d2c161543b",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID66-3.png?alt=media&token=c58e76ff-8c59-4a01-984c-9d926ce37c92"
+                    
                   ],
                   "description": "Amla, or Indian Gooseberry, is renowned for boosting immunity, its anti-aging benefits, and improving digestive health. It grows well in well-drained soil with full sun exposure.",
                   "type": "Tree",
@@ -1226,17 +1164,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Immunity Boost"]
                 },
-                "documentID67": {
+               {
                   "hindiName": "Bhringraj",
                   "englishName": "False Daisy",
                   "botanicalName": "Eclipta prostrata",
                   "uses": ["Hair Health", "Liver Detox", "Skin Care"],
                   "imageUrls": [
-                    "https://example.com/images/bhringraj1.jpg",
-                    "https://example.com/images/bhringraj2.jpg",
-                    "https://example.com/images/bhringraj3.jpg",
-                    "https://example.com/images/bhringraj4.jpg",
-                    "https://example.com/images/bhringraj5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FdocumentID67-1.png?alt=media&token=2200901a-4772-4069-a9dc-30781f152583",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID67-2.png?alt=media&token=299db558-7f36-4163-96f2-03a11907e77e",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID67-3.png?alt=media&token=f32c7866-6f3b-40c9-96b6-a77fada7e368"
+                    
                   ],
                   "description": "Bhringraj, or False Daisy, is famous for promoting hair health, liver detoxification, and skin care. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1247,17 +1184,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Hair Health"]
                 },
-                "documentID68": {
+               {
                   "hindiName": "Neem",
                   "englishName": "Neem Tree",
                   "botanicalName": "Azadirachta indica",
                   "uses": ["Skin Care", "Antiseptic", "Dental Health"],
                   "imageUrls": [
-                    "https://example.com/images/neem1.jpg",
-                    "https://example.com/images/neem2.jpg",
-                    "https://example.com/images/neem3.jpg",
-                    "https://example.com/images/neem4.jpg",
-                    "https://example.com/images/neem5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-1.png?alt=media&token=9bc3c764-cfb3-41e3-b166-f1783781194d",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-2.png?alt=media&token=416a9063-dba8-497e-9fec-63a8c04abab8",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-3.png?alt=media&token=afe35e70-2b97-46c1-89c6-f6108aae5118"
+                    
                   ],
                   "description": "Neem is valued for its skin care, antiseptic, and dental health benefits. It thrives in well-drained soil with full sun exposure.",
                   "type": "Tree",
@@ -1268,17 +1204,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Skin Care"]
                 },
-                "documentID69": {
+           {
                   "hindiName": "Guggul",
                   "englishName": "Commiphora",
                   "botanicalName": "Commiphora wightii",
                   "uses": ["Joint Health", "Cholesterol Management", "Anti-inflammatory"],
                   "imageUrls": [
-                    "https://example.com/images/guggul1.jpg",
-                    "https://example.com/images/guggul2.jpg",
-                    "https://example.com/images/guggul3.jpg",
-                    "https://example.com/images/guggul4.jpg",
-                    "https://example.com/images/guggul5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-1.png?alt=media&token=5a03635b-b873-4e70-b706-3174abdd48e1",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-2.png?alt=media&token=519f8b63-3ef8-4663-986b-70e6a3576bc9",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-3.png?alt=media&token=44b1350b-8642-4ddd-aa17-27e63c8a147b"
+                    
                   ],
                   "description": "Guggul is known for its benefits in joint health, cholesterol management, and anti-inflammatory effects. It grows best in dry, well-drained soil with full sun exposure.",
                   "type": "Shrub",
@@ -1289,17 +1224,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Joint Health"]
                 },
-                "documentID70": {
+           {
                   "hindiName": "Methi",
                   "englishName": "Fenugreek",
                   "botanicalName": "Trigonella foenum-graecum",
                   "uses": ["Digestive Health", "Blood Sugar Regulation", "Lactation Support"],
                   "imageUrls": [
-                    "https://example.com/images/methi1.jpg",
-                    "https://example.com/images/methi2.jpg",
-                    "https://example.com/images/methi3.jpg",
-                    "https://example.com/images/methi4.jpg",
-                    "https://example.com/images/methi5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-1.png?alt=media&token=d55bf341-d53d-4065-9ea8-39fb79a4d52d",
+                    "https://example.com/images/methi2.jpghttps://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-2.png?alt=media&token=4d4c4ecf-690d-4a83-b2ba-2ba3ed89fa1f",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-3.png?alt=media&token=474ed016-e1ce-403e-b7dc-73ae0d84fc98"
+                    
                   ],
                   "description": "Methi, or Fenugreek, is used for its digestive health benefits, blood sugar regulation, and lactation support. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1310,17 +1244,17 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Digestive Health"]
                 },
-                "documentID71": {
+               
+     {
                   "hindiName": "Tulsi",
                   "englishName": "Holy Basil",
                   "botanicalName": "Ocimum sanctum",
                   "uses": ["Immunity Boost", "Stress Relief", "Respiratory Health"],
                   "imageUrls": [
-                    "https://example.com/images/tulsi1.jpg",
-                    "https://example.com/images/tulsi2.jpg",
-                    "https://example.com/images/tulsi3.jpg",
-                    "https://example.com/images/tulsi4.jpg",
-                    "https://example.com/images/tulsi5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-1.png?alt=media&token=2cf73422-3cbb-457c-9fe3-3c06b22266d8",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-2.png?alt=media&token=4fdc42cf-414f-46de-a38a-bdc21a2e43aa",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-3.png?alt=media&token=5a56cf6f-d1d0-4b97-99a7-d97dc3a2a2b2"
+                    
                   ],
                   "description": "Tulsi, or Holy Basil, is renowned for boosting immunity, relieving stress, and supporting respiratory health. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1331,17 +1265,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Immunity Boost"]
                 },
-                "documentID72": {
+               {
                   "hindiName": "Ashwagandha",
                   "englishName": "Withania",
                   "botanicalName": "Withania somnifera",
                   "uses": ["Stress Relief", "Energy Boost", "Cognitive Health"],
                   "imageUrls": [
-                    "https://example.com/images/ashwagandha1.jpg",
-                    "https://example.com/images/ashwagandha2.jpg",
-                    "https://example.com/images/ashwagandha3.jpg",
-                    "https://example.com/images/ashwagandha4.jpg",
-                    "https://example.com/images/ashwagandha5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-1.png?alt=media&token=7d78605b-f2c7-49f2-b6f5-b1740a0338e7",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-2.png?alt=media&token=1fcc0e16-03ef-43aa-b870-b58a6fe4d837",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-3.png?alt=media&token=40a1374d-8903-41a4-9ade-f2396e29ca89"
+                    
                   ],
                   "description": "Ashwagandha, or Withania, is used for stress relief, boosting energy, and cognitive health. It thrives in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1352,17 +1285,16 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Stress Relief"]
                 },
-                "documentID73": {
+            {
                   "hindiName": "Yarrow",
                   "englishName": "Achillea",
                   "botanicalName": "Achillea millefolium",
                   "uses": ["Wound Healing", "Digestive Health", "Anti-inflammatory"],
                   "imageUrls": [
-                    "https://example.com/images/yarrow1.jpg",
-                    "https://example.com/images/yarrow2.jpg",
-                    "https://example.com/images/yarrow3.jpg",
-                    "https://example.com/images/yarrow4.jpg",
-                    "https://example.com/images/yarrow5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-1.png?alt=media&token=795ccf78-4070-4658-8794-bd8df19e0080",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-2.png?alt=media&token=660adf0a-2b24-45d0-8f3a-8b49270461ce",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-3.png?alt=media&token=a6989278-9b82-4282-8984-db46d87a4175"
+                    
                   ],
                   "description": "Yarrow is known for its wound healing, digestive health, and anti-inflammatory properties. It grows well in well-drained soil with full sun exposure.",
                   "type": "Herb",
@@ -1373,17 +1305,16 @@
                   "region": "Temperate",
                   "tags": ["Medicinal", "Wound Healing"]
                 },
-                "documentID74": {
+ {
                   "hindiName": "Ginger",
                   "englishName": "Ginger",
                   "botanicalName": "Zingiber officinale",
                   "uses": ["Digestive Health", "Anti-nausea", "Anti-inflammatory"],
                   "imageUrls": [
-                    "https://example.com/images/ginger1.jpg",
-                    "https://example.com/images/ginger2.jpg",
-                    "https://example.com/images/ginger3.jpg",
-                    "https://example.com/images/ginger4.jpg",
-                    "https://example.com/images/ginger5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-1.png?alt=media&token=5934a1d2-ffe8-4e7b-a395-311b61c83303",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-2.png?alt=media&token=2044f901-ae05-44ed-a383-b96b5cfdb6c5",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-3.png?alt=media&token=daebd0e8-ed56-41b8-a023-8689977cbc1f"
+                    
                   ],
                   "description": "Ginger is valued for its digestive health benefits, anti-nausea properties, and anti-inflammatory effects. It grows best in warm, well-drained soil with partial shade.",
                   "type": "Root",
@@ -1394,17 +1325,15 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Digestive Health"]
                 },
-                "documentID75": {
+            {
                   "hindiName": "Turmeric",
                   "englishName": "Turmeric",
                   "botanicalName": "Curcuma longa",
                   "uses": ["Anti-inflammatory", "Digestive Health", "Skin Care"],
                   "imageUrls": [
-                    "https://example.com/images/turmeric1.jpg",
-                    "https://example.com/images/turmeric2.jpg",
-                    "https://example.com/images/turmeric3.jpg",
-                    "https://example.com/images/turmeric4.jpg",
-                    "https://example.com/images/turmeric5.jpg"
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-1.png?alt=media&token=c6efa5c0-0d8a-4403-9b86-6d2fe824a651",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-2.png?alt=media&token=f87d86d5-2f31-4bbe-b34b-bbdb2ff38dd6",
+                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-3.png?alt=media&token=b74f54f7-7a19-4bbc-9150-4258bfe2036d"
                   ],
                   "description": "Turmeric is known for its anti-inflammatory, digestive health, and skin care benefits. It thrives in warm, well-drained soil with partial shade.",
                   "type": "Root",
@@ -1415,10 +1344,12 @@
                   "region": "Tropical",
                   "tags": ["Medicinal", "Skin Care"]
                 }
+              
+      ]
               }
+                      
 
-
-    }
+  }
 
     
   

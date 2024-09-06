@@ -1,6 +1,10 @@
 import 'package:ayurvan/core/colors.dart';
+import 'package:ayurvan/models/3d_model.dart';
+import 'package:ayurvan/screens/3d_plant_details.dart';
 import 'package:ayurvan/screens/ayushAi.dart';
 import 'package:ayurvan/screens/home_page.dart';
+import 'package:ayurvan/screens/plant_overview.dart';
+import 'package:ayurvan/screens/profile_screen.dart';
 
 import 'package:flutter/material.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
@@ -104,7 +108,7 @@ class _Tabs extends State<Tabs> {
        
         onPressed: () {
           Navigator.push(context,MaterialPageRoute(builder: (context) {
-              return const AyushAi();
+              return const AyushAiScreen();
           },));
         },
         backgroundColor: Colors.white,
@@ -116,12 +120,12 @@ class _Tabs extends State<Tabs> {
         child: PageView(
           physics: const NeverScrollableScrollPhysics(),
           controller: controller,
-          children: const [
-            HomeScreen(),
-            Center(child: Text('3D')),
+          children:  [
+            const HomeScreen(),
+            HerbalPlantsOverview(plants:herbalPlants ),
           
-            Center(child: Text('Style')),
-            Center(child: Text('Profile')),
+            const Center(child: Text('Style')),
+           const ProfileScreen()
           ],
         ),
       ),

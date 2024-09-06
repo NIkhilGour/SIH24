@@ -39,6 +39,17 @@ dependencies:
   flashy_tab_bar2: ^0.0.10
   stylish_bottom_bar: ^1.1.0
   firebase_core: ^2.24.2
+  webview_flutter: ^4.9.0
+  flutter_inappwebview: ^6.0.0
+  model_viewer_plus: ^1.7.0
+  audioplayers: ^6.1.0
+  carousel_slider: ^5.0.0
+  get: ^4.6.6
+  liquid_swipe: ^3.1.0
+  firebase_auth: ^4.16.0
+  google_sign_in: ^6.2.1
+  flutter_otp_text_field: ^1.2.0
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
@@ -65,9 +76,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/icons/
+    - assets/icons/soil.png
     - assets/images/
-    - assets/tree.glb
-    - assets/tulsi.glb
+    - assets/3d/
+    - assets/audio/
+    - assets/data.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
