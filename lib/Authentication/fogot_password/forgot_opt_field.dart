@@ -1,7 +1,8 @@
+import 'package:ayurvan/Authentication/fogot_password/forgot_button.dart';
+import 'package:ayurvan/Authentication/fogot_password/forgot_mail.dart';
+import 'package:ayurvan/Authentication/fogot_password/forgot_phone.dart';
 import 'package:flutter/material.dart';
-import 'package:ayurvan/Authentication/screens/fogot_password/forgot_button.dart';
-import 'package:ayurvan/Authentication/screens/fogot_password/forgot_mail.dart';
-import 'package:ayurvan/Authentication/screens/fogot_password/forgot_phone.dart';
+
 import 'package:ayurvan/constant/Text.dart';
 import 'package:ayurvan/constant/size.dart';
 

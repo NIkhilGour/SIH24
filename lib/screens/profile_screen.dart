@@ -1,5 +1,6 @@
+import 'package:ayurvan/screens/user_note.dart';
 import 'package:ayurvan/widgets/feedback.dart';
-import 'package:ayurvan/widgets/profile_edit.dart';
+
 import 'package:ayurvan/widgets/rate_us.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -55,45 +56,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           child: Stack(
             children: [
               // Top container for profile picture and details
-              Positioned(
-                top: 0,
-                left: 0,
-                right: 0,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: tilecolor,
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 10, vertical: 20),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        // Back button
-                        Container(
-                          height: 50,
-                          width: 50,
-                          decoration: const BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.all(Radius.circular(20)),
-                          ),
-                          child: InkWell(
-                            onTap: () {
-                              Navigator.pop(context);
-                            },
-                            child: const Icon(
-                              Icons.arrow_back,
-                              size: 25,
-                              color: Colors.black54,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
-
+              
               // Profile picture, name, and phone number
               Positioned(
                 top: 80,
@@ -103,7 +66,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   children: [
                     const CircleAvatar(
                       radius: 60,
-                      child: Icon(Icons.person,size:50,),
+                      backgroundImage: AssetImage('assets/icons/boy.png'),
                     ),
                     const SizedBox(height: 12),
                     Text(
@@ -159,7 +122,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           title: 'My Notes',
                           iconColor: Colors.green,
                           onTap: () {
-                            // Handle My Notes tap
+                              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                  return UserNoteScreen();
+                              },));
                           },
                         ),
                         _buildAccountOption(

@@ -109,7 +109,7 @@ class _SignUpState extends State<SignUp> {
                           if (value == null || value.isEmpty) {
                             return 'Please enter your phone number';
                           }
-                           else if (!value.isPhoneNumber ) {
+                           if (!(value.length==10)) {
                             return 'Please enter valid phone number';
                           }
                           return null;
@@ -139,12 +139,15 @@ class _SignUpState extends State<SignUp> {
                           ),
                         ),
                         validator: (value) {
-                          if (value == null || value.isEmpty) {
-                            return 'Please enter your password';
+                          if (value == null || value.isEmpty ) {
+                            return 'Please enter valid password';
                           }
-                          if (value.length < 6 || !value.isPassport) {
-                            return 'Password must be at least 6 characters long';
+
+                          if(value.length<6)
+                          {
+                            return 'Password must be 6 character long';
                           }
+                          
                           return null;
                         },
                       ),

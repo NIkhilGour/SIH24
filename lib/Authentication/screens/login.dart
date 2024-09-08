@@ -1,3 +1,5 @@
+import 'package:ayurvan/Authentication/fogot_password/forgot_opt_field.dart';
+
 import 'package:flutter/material.dart';
 import 'package:ayurvan/Authentication/screens/sign_up.dart';
 import 'package:ayurvan/constant/Text.dart';
@@ -65,7 +67,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         const SizedBox(height: 10),
                         TextFormField(
                           controller: passwordController,
-                          obscureText: !_isPasswordVisible, // Toggle password visibility
+                          obscureText:
+                              !_isPasswordVisible, // Toggle password visibility
                           decoration: InputDecoration(
                             prefixIcon: const Icon(Icons.lock_outline),
                             labelText: "Password",
@@ -90,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           alignment: Alignment.centerRight,
                           child: TextButton(
                             onPressed: () {
-                              // Handle forgot password logic here
+                              ForgotOptField.forgotoptionfield(context);
                             },
                             child: const Text('Forgot Password?'),
                           ),

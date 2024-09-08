@@ -5,7 +5,7 @@ import 'package:ayurvan/models/plant_data.dart';
 import 'package:ayurvan/screens/plant_details.dart';
 import 'package:ayurvan/widgets/home_container.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -114,12 +114,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-
-                   
-
                     Text(
-                      'AyurVan',
-                      
+                      'AyurVan',  
                       style: TextStyle(
                         color: textcolor,
                         fontSize: 30,

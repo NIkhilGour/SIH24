@@ -40,7 +40,7 @@ final List<HerbalPlant> herbalPlants = [
   ),
   HerbalPlant(
     name: 'Babool (Acacia)',
-    modelPath: 'assets/3d/babool(acacia).glb',
+    modelPath: 'assets/3d/babool.glb',
     audioPath: 'assets/audio/babool.wav',
     description: '''
 **Babool** (Acacia) is a tree prized for its **astringent and antibacterial properties**. The bark of Babool is a key ingredient in oral hygiene products, promoting gum health and preventing cavities.
@@ -89,7 +89,7 @@ final List<HerbalPlant> herbalPlants = [
   HerbalPlant(
     name: 'Coriander',
     modelPath: 'assets/3d/coriander.glb',
-    audioPath: 'assets/audio/dhaniya.wav',
+    audioPath: 'assets/audio/coriander.wav',
     description: '''
 **Dhaniya** (Coriander) is a common herb widely used in **culinary** practices around the world. Its leaves, seeds, and roots are all edible and provide a distinct flavor to dishes.
 
@@ -124,8 +124,8 @@ final List<HerbalPlant> herbalPlants = [
   ),
   HerbalPlant(
     name: 'Mookshood (Aconitum)',
-    modelPath: 'assets/3d/mookshood.glb',
-    audioPath: 'assets/audio/mookshood.wav',
+    modelPath: 'assets/3d/mookshood(aconitum).glb',
+    audioPath: 'assets/audio/mookshood(aconitum).wav',
     description: '''
 **Mookshood** (Aconitum), also known as Monkshood or Wolf's Bane, is a highly toxic plant with a history of use in traditional medicine. Despite its toxicity, it has been used in small doses to treat certain ailments.
 

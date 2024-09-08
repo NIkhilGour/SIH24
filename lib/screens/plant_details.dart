@@ -1,3 +1,4 @@
+import 'package:ayurvan/widgets/add_note.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:ayurvan/core/colors.dart';
 import 'package:ayurvan/models/3d_model.dart';
@@ -34,13 +35,11 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
     final user = _auth.currentUser;
     if (user == null) return;
 
-    final doc = await _firestore
-        .collection('favorites')
-        .doc(user.uid)
-        .get();
+    final doc = await _firestore.collection('favorites').doc(user.uid).get();
 
     if (doc.exists) {
-      final favoritePlants = List<String>.from(doc.data()?['favoritePlants'] ?? []);
+      final favoritePlants =
+          List<String>.from(doc.data()?['favoritePlants'] ?? []);
       setState(() {
         _isFavorited = favoritePlants.contains(widget.plantdata.botanicalName);
       });
@@ -57,7 +56,8 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
       final doc = await transaction.get(docRef);
 
       if (doc.exists) {
-        final favoritePlants = List<String>.from(doc.data()?['favoritePlants'] ?? []);
+        final favoritePlants =
+            List<String>.from(doc.data()?['favoritePlants'] ?? []);
         if (_isFavorited) {
           favoritePlants.remove(widget.plantdata.botanicalName);
         } else {
@@ -65,9 +65,8 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
         }
         transaction.update(docRef, {'favoritePlants': favoritePlants});
       } else {
-        final favoritePlants = _isFavorited
-            ? []
-            : [widget.plantdata.botanicalName!];
+        final favoritePlants =
+            _isFavorited ? [] : [widget.plantdata.botanicalName!];
         transaction.set(docRef, {'favoritePlants': favoritePlants});
       }
     });
@@ -165,7 +164,8 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: widget.plantdata.imageUrls!.map((url) {
-                              int index = widget.plantdata.imageUrls!.indexOf(url);
+                              int index =
+                                  widget.plantdata.imageUrls!.indexOf(url);
                               return Container(
                                 width: 8.0,
                                 height: 8.0,
@@ -191,7 +191,7 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                 left: 0,
                 right: 0,
                 child: Container(
-                  height: MediaQuery.of(context).size.height*0.5,
+                  height: MediaQuery.of(context).size.height * 0.5,
                   decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
@@ -206,19 +206,51 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
-                              Text(
-                                widget.plantdata.botanicalName!,
-                                style: TextStyle(
-                                    color: buttoncolor,
-                                    fontSize: 30,
-                                    fontWeight: FontWeight.bold),
+                              Container(
+                                padding: EdgeInsets.only(left: 5),
+                                width: MediaQuery.of(context).size.width * 0.65,
+                                child: Text(
+                                  widget.plantdata.botanicalName!,
+                                  softWrap: true,
+                                  style: TextStyle(
+                                      color: buttoncolor,
+                                      fontSize: 30,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ),
+                              IconButton(
+                                onPressed: () {
+                                  showModalBottomSheet(
+                                    context: context,
+                                    isScrollControlled:
+                                        true, // Allows the sheet to resize when the keyboard opens
+                                    shape: const RoundedRectangleBorder(
+                                      borderRadius: BorderRadius.vertical(
+                                          top: Radius.circular(25.0)),
+                                    ),
+                                    builder: (context) {
+                                      return Padding(
+                                        padding: EdgeInsets.only(
+                                          bottom: MediaQuery.of(context)
+                                              .viewInsets
+                                              .bottom, // Handles the keyboard overlap
+                                        ),
+                                        child: AddNote(plant: widget.plantdata,),
+                                      );
+                                    },
+                                  );
+                                },
+                                icon: const Icon(Icons.note_add_rounded,
+                                    size: 30),
                               ),
                               IconButton(
                                 icon: Icon(
                                   _isFavorited
                                       ? Icons.star
                                       : Icons.star_border_outlined,
-                                  color: _isFavorited ? Colors.orange : Colors.black54,
+                                  color: _isFavorited
+                                      ? Colors.orange
+                                      : Colors.black54,
                                   size: 40,
                                 ),
                                 onPressed: _toggleFavorite,
@@ -246,14 +278,12 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                                 fontWeight: FontWeight.w500),
                           ),
                         ),
-                         Padding(
+                        Padding(
                           padding: const EdgeInsets.only(left: 16, top: 20),
                           child: Text(
                             'Uses',
                             style: GoogleFonts.archivo(
-                              fontSize: 30,
-                              fontWeight: FontWeight.w500
-                            ),
+                                fontSize: 30, fontWeight: FontWeight.w500),
                             // style: TextStyle(
                             //     color: Colors.black,
                             //     fontSize: 30,
@@ -275,15 +305,13 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left: 15, top: 10, right: 15),
+                          padding: const EdgeInsets.only(
+                              left: 15, top: 10, right: 15),
                           child: Text(
                             widget.plantdata.description!,
 
-                              style: GoogleFonts.lato(
-                
-                fontWeight: FontWeight.w600,
-                fontSize: 20
-              ),
+                            style: GoogleFonts.lato(
+                                fontWeight: FontWeight.w600, fontSize: 20),
                             // style: const TextStyle(
                             //   fontSize: 18,
                             //   fontWeight: FontWeight.w400,
