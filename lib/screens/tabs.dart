@@ -2,14 +2,13 @@ import 'package:ayurvan/core/colors.dart';
 import 'package:ayurvan/models/3d_model.dart';
 import 'package:ayurvan/screens/3d_plant_details.dart';
 import 'package:ayurvan/screens/ayushAi.dart';
+import 'package:ayurvan/screens/favorite_screen.dart';
 import 'package:ayurvan/screens/home_page.dart';
 import 'package:ayurvan/screens/plant_overview.dart';
 import 'package:ayurvan/screens/profile_screen.dart';
-
+import 'package:ayurvan/screens/revolving_images.dart';
 import 'package:flutter/material.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
-
-
 
 class Tabs extends StatefulWidget {
   const Tabs({super.key});
@@ -19,24 +18,23 @@ class Tabs extends StatefulWidget {
 }
 
 class _Tabs extends State<Tabs> {
-  int selected = 0;
-  bool heart = false;
-  final controller = PageController();
+  int _selectedIndex = 0;
 
-  @override
-  void dispose() {
-    controller.dispose();
-    super.dispose();
-  }
+  final List<Widget> _screens = [
+    const HomeScreen(),
+    
+    HerbalPlantsOverview(plants: herbalPlants),
+    const FavoriteScreen(),
+     const ProfileScreen()
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       extendBody: true,
-      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomInset: false, // Ensure layout adjusts for keyboard
 
       bottomNavigationBar: StylishBottomBar(
-       
         option: DotBarOptions(
           iconSize: 30,
           dotStyle: DotStyle.tile,
@@ -51,86 +49,66 @@ class _Tabs extends State<Tabs> {
         ),
         items: [
           BottomBarItem(
-            icon: const Icon(
-              Icons.house_outlined,
-            ),
+            icon: const Icon(Icons.house_outlined),
             selectedIcon: const Icon(Icons.house_rounded),
-            selectedColor:selectedicon,
-            unSelectedColor:unselectedicon,
+            selectedColor: selectedicon,
+            unSelectedColor: unselectedicon,
             title: const Text('Home'),
-           
-           
             badgePadding: const EdgeInsets.only(left: 4, right: 4),
           ),
           BottomBarItem(
-            icon: Image.asset('assets/icons/cube.png',height: 27,color: unselectedicon,),
-            selectedIcon: Image.asset('assets/icons/cube.png',height: 27,color: unselectedicon,),
-             selectedColor:selectedicon,
-            unSelectedColor:unselectedicon,
-            // backgroundColor: Colors.orange,
+            icon: Image.asset('assets/icons/cube.png', height: 27, color: unselectedicon),
+            selectedIcon: Image.asset('assets/icons/cube.png', height: 27, color: unselectedicon),
+            selectedColor: selectedicon,
+            unSelectedColor: unselectedicon,
             title: const Text('3D'),
           ),
           BottomBarItem(
-              icon: const Icon(
-                Icons.star,
-              ),
-              selectedIcon: const Icon(
-                Icons.star,
-              ),
-              selectedColor:selectedicon,
-              unSelectedColor:unselectedicon,
-              title: const Text('Star')),
+            icon: const Icon(Icons.star),
+            selectedIcon: const Icon(Icons.star),
+            selectedColor: selectedicon,
+            unSelectedColor: unselectedicon,
+            title: const Text('Star'),
+          ),
           BottomBarItem(
-              icon: const Icon(
-                Icons.person_outline,
-              ),
-              selectedIcon: const Icon(
-                Icons.person,
-              ),
-               selectedColor:selectedicon,
-            unSelectedColor:unselectedicon,
-              title: const Text('Profile')),
+            icon: const Icon(Icons.person_outline),
+            selectedIcon: const Icon(Icons.person),
+            selectedColor: selectedicon,
+            unSelectedColor: unselectedicon,
+            title: const Text('Profile'),
+          ),
         ],
         hasNotch: true,
         fabLocation: StylishBarFabLocation.center,
-        currentIndex: selected,
+        currentIndex: _selectedIndex,
         notchStyle: NotchStyle.circle,
         onTap: (index) {
-          if (index == selected) return;
-          controller.jumpToPage(index);
+          if (index == _selectedIndex) return;
           setState(() {
-            selected = index;
+            _selectedIndex = index;
           });
         },
       ),
       floatingActionButton: FloatingActionButton(
         shape: const CircleBorder(),
-       
         onPressed: () {
-          Navigator.push(context,MaterialPageRoute(builder: (context) {
-              return const AyushAiScreen();
-          },));
+          Navigator.push(context, MaterialPageRoute(builder: (context) {
+            return const AyushAiScreen();
+          }));
         },
         backgroundColor: Colors.white,
         child: ClipOval(
-          child: Image.asset('assets/icons/ayushAi.jpg',fit: BoxFit.cover,height: 60,))
+          child: Image.asset('assets/icons/ayushAi.jpg', fit: BoxFit.cover, height: 60),
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SafeArea(
-        child: PageView(
-          physics: const NeverScrollableScrollPhysics(),
-          controller: controller,
-          children:  [
-            const HomeScreen(),
-            HerbalPlantsOverview(plants:herbalPlants ),
-          
-            const Center(child: Text('Style')),
-           const ProfileScreen()
-          ],
+        child: SingleChildScrollView(
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height,
+            child: _screens[_selectedIndex]),
         ),
       ),
     );
   }
 }
-
-

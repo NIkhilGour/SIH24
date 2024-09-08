@@ -160,7 +160,9 @@ class _SignUpState extends State<SignUp> {
                                   controller.fullname.text,
                                   controller.email.text
                                       .trim(), // Ensure email is trimmed
-                                  controller.password.text);
+                                  controller.password.text,
+                                  controller.phoneNo.text
+                                  );
                             }
                           },
                           style: ElevatedButton.styleFrom(

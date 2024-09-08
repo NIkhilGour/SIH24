@@ -5,6 +5,7 @@ import 'package:ayurvan/models/plant_data.dart';
 import 'package:ayurvan/screens/plant_details.dart';
 import 'package:ayurvan/widgets/home_container.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -64,17 +65,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // This method filters the plants based on search input and selected plant type
   void _filterPlants() {
-    String query = searchController.text.toLowerCase();
-    setState(() {
-      filteredPlants = allPlants?.where((plant) {
-        bool matchesSearch = plant.botanicalName!.toLowerCase().contains(query) ||
-            plant.englishName!.toLowerCase().contains(query);
-        bool matchesType = (selectedPlantType == 'All') || plant.type == selectedPlantType;
+  String query = searchController.text.toLowerCase();
+  setState(() {
+    filteredPlants = allPlants?.where((plant) {
+      bool matchesSearch = plant.botanicalName!.toLowerCase().contains(query) ||
+          plant.englishName!.toLowerCase().contains(query) ||
+          plant.uses!.any((use) => use.toLowerCase().contains(query)); // Search within the list of uses
+      bool matchesType = (selectedPlantType == 'All') || plant.type == selectedPlantType;
 
-        return matchesSearch && matchesType;
-      }).toList();
-    });
-  }
+      return matchesSearch && matchesType;
+    }).toList();
+  });
+}
+
 
   // Method to handle the popup menu selection
   void _onFilterSelected(String? newType) {
@@ -88,6 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: backgroundcolor,
+      resizeToAvoidBottomInset: true,
       body: FutureBuilder<Data>(
         future: futureData,
         builder: (context, snapshot) {
@@ -108,10 +112,14 @@ class _HomeScreenState extends State<HomeScreen> {
               Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+
+                   
+
                     Text(
-                      'Home',
+                      'AyurVan',
+                      
                       style: TextStyle(
                         color: textcolor,
                         fontSize: 30,

@@ -1,4 +1,5 @@
 import 'package:ayurvan/screens/onboarding_screen.dart';
+import 'package:ayurvan/screens/revolving_images.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: TAppTheme.lightTheme, // Your custom light theme
       darkTheme: TAppTheme.darkTheme, // Custom dark theme
       themeMode: ThemeMode.system, // Automatically switch based on system setting
-      home: const SplashScreen(), // Start with the SplashScreen
+      home: const RevolvingImages(), // Start with the SplashScreen
     );
   }
 }

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ExpandableIconExample extends StatefulWidget {
-  const ExpandableIconExample({super.key, required this.iconname,required this.textdata});
+  const ExpandableIconExample({super.key, required this.iconname, required this.textdata});
   final String iconname;
   final String textdata;
+
   @override
   _ExpandableIconExampleState createState() => _ExpandableIconExampleState();
 }
@@ -33,8 +34,9 @@ class _ExpandableIconExampleState extends State<ExpandableIconExample>
 
   @override
   Widget build(BuildContext context) {
+    // Determine the icon color based on iconname
     if (widget.iconname == 'plant_type') {
-      color = Colors.greenAccent;
+      color = const Color(0xFF50C878);
     } else if (widget.iconname == 'soil') {
       color = Colors.brown;
     } else if (widget.iconname == 'season') {
@@ -45,17 +47,22 @@ class _ExpandableIconExampleState extends State<ExpandableIconExample>
       color = Colors.blue;
     }
 
+    // Get screen width to ensure no overflow
+    final screenWidth = MediaQuery.of(context).size.width;
+    final maxExpandableWidth = screenWidth * 0.5; // Limit max width to 50% of screen width
+
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Center(
+      child: Align(
+        alignment: Alignment.centerRight, // Align to the right of the screen
         child: GestureDetector(
           onTap: () {
             setState(() {
               _isExpanded = !_isExpanded;
               if (_isExpanded) {
-                _controller.forward();  // Start rotation animation
+                _controller.forward(); // Start rotation animation
               } else {
-                _controller.reverse();  // Reverse rotation animation
+                _controller.reverse(); // Reverse rotation animation
               }
             });
           },
@@ -69,7 +76,7 @@ class _ExpandableIconExampleState extends State<ExpandableIconExample>
             ),
             constraints: BoxConstraints(
               minWidth: 50.0,
-              maxWidth: _isExpanded ? 200 : 50.0,
+              maxWidth: _isExpanded ? maxExpandableWidth : 50.0, // Limit the expansion width
             ),
             child: Row(
               mainAxisAlignment: _isExpanded
@@ -77,9 +84,12 @@ class _ExpandableIconExampleState extends State<ExpandableIconExample>
                   : MainAxisAlignment.center,
               children: [
                 if (_isExpanded)
-                   Text(
-              widget.textdata,
-                    style: TextStyle(color: color),
+                  Flexible( // Ensure text doesn't overflow
+                    child: Text(
+                      widget.textdata,
+                      style: TextStyle(color: color),
+                      overflow: TextOverflow.ellipsis, // Prevent overflow of text
+                    ),
                   ),
                 RotationTransition(
                   turns: _animation,

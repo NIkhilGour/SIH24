@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:ayurvan/Authentication/screens/welcome_screen.dart';
@@ -8,34 +9,44 @@ class SignUpController extends GetxController {
   final TextEditingController fullname = TextEditingController();
   final TextEditingController email = TextEditingController();
   final TextEditingController password = TextEditingController();
-  final TextEditingController phoneNo = TextEditingController(); // Added phone number controller
+  final TextEditingController phoneNo =
+      TextEditingController(); // Added phone number controller
 
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final GoogleSignIn _googleSignIn = GoogleSignIn();
 
   // Function to handle email/password registration
-  Future<void> registerUser(String fullName, String email, String password) async {
-  try {
-    // Trim email to remove any unintended spaces
-    email = email.trim();
-    
-    // Print to debug
-    print("Attempting to register user with email: $email");
+  Future<void> registerUser(
+      String fullName, String email, String password, String phone) async {
+    try {
+      // Trim email to remove any unintended spaces
+      email = email.trim();
 
-    UserCredential userCredential = await _auth.createUserWithEmailAndPassword(
-      email: email,
-      password: password,
-    );
+      // Print to debug
+      print("Attempting to register user with email: $email");
 
-    print("User registered: ${userCredential.user?.email}");
-    Get.offAll(() => const WelcomeScreen());
+      UserCredential userCredential =
+          await _auth.createUserWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
 
-  } on FirebaseAuthException catch (e) {
-    print("Error: ${e.message}");
-    Get.snackbar('Error', e.message ?? 'An error occurred',
-        snackPosition: SnackPosition.BOTTOM);
+      FirebaseFirestore.instance
+          .collection('users').doc(FirebaseAuth.instance.currentUser!.uid)
+          .set({
+             'name': fullName,
+             'email':email,
+             'phone': phone,
+      });
+
+      print("User registered: ${userCredential.user?.email}");
+      Get.offAll(() => const WelcomeScreen());
+    } on FirebaseAuthException catch (e) {
+      print("Error: ${e.message}");
+      Get.snackbar('Error', e.message ?? 'An error occurred',
+          snackPosition: SnackPosition.BOTTOM);
+    }
   }
-}
 
   // Function to handle Google sign-in
   Future<void> signInWithGoogle() async {

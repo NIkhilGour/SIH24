@@ -321,6 +321,167 @@
           "region": "Tropical",
           "tags": ["Medicinal", "Hepatic"]
         },
+        {
+          "hindiName": "Neem",
+          "englishName": "Neem Tree",
+          "botanicalName": "Azadirachta indica",
+          "uses": ["Skin Care", "Antiseptic", "Dental Health"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-1.png?alt=media&token=9bc3c764-cfb3-41e3-b166-f1783781194d",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-2.png?alt=media&token=416a9063-dba8-497e-9fec-63a8c04abab8",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-3.png?alt=media&token=afe35e70-2b97-46c1-89c6-f6108aae5118"
+            
+          ],
+          "description": "Neem is valued for its skin care, antiseptic, and dental health benefits. It thrives in well-drained soil with full sun exposure.",
+          "type": "Tree",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Skin Care"]
+        },
+   {
+          "hindiName": "Guggul",
+          "englishName": "Commiphora",
+          "botanicalName": "Commiphora wightii",
+          "uses": ["Joint Health", "Cholesterol Management", "Anti-inflammatory"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-1.png?alt=media&token=5a03635b-b873-4e70-b706-3174abdd48e1",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-2.png?alt=media&token=519f8b63-3ef8-4663-986b-70e6a3576bc9",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-3.png?alt=media&token=44b1350b-8642-4ddd-aa17-27e63c8a147b"
+            
+          ],
+          "description": "Guggul is known for its benefits in joint health, cholesterol management, and anti-inflammatory effects. It grows best in dry, well-drained soil with full sun exposure.",
+          "type": "Shrub",
+          "soilType": ["Sandy", "Loamy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Joint Health"]
+        },
+   {
+          "hindiName": "Methi",
+          "englishName": "Fenugreek",
+          "botanicalName": "Trigonella foenum-graecum",
+          "uses": ["Digestive Health", "Blood Sugar Regulation", "Lactation Support"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-1.png?alt=media&token=d55bf341-d53d-4065-9ea8-39fb79a4d52d",
+            "https://example.com/images/methi2.jpghttps://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-2.png?alt=media&token=4d4c4ecf-690d-4a83-b2ba-2ba3ed89fa1f",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-3.png?alt=media&token=474ed016-e1ce-403e-b7dc-73ae0d84fc98"
+            
+          ],
+          "description": "Methi, or Fenugreek, is used for its digestive health benefits, blood sugar regulation, and lactation support. It grows well in well-drained soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Digestive Health"]
+        },
+       
+{
+          "hindiName": "Tulsi",
+          "englishName": "Holy Basil",
+          "botanicalName": "Ocimum sanctum",
+          "uses": ["Immunity Boost", "Stress Relief", "Respiratory Health"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-1.png?alt=media&token=2cf73422-3cbb-457c-9fe3-3c06b22266d8",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-2.png?alt=media&token=4fdc42cf-414f-46de-a38a-bdc21a2e43aa",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-3.png?alt=media&token=5a56cf6f-d1d0-4b97-99a7-d97dc3a2a2b2"
+            
+          ],
+          "description": "Tulsi, or Holy Basil, is renowned for boosting immunity, relieving stress, and supporting respiratory health. It grows well in well-drained soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Monsoon",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Immunity Boost"]
+        },
+       {
+          "hindiName": "Ashwagandha",
+          "englishName": "Withania",
+          "botanicalName": "Withania somnifera",
+          "uses": ["Stress Relief", "Energy Boost", "Cognitive Health"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-1.png?alt=media&token=7d78605b-f2c7-49f2-b6f5-b1740a0338e7",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-2.png?alt=media&token=1fcc0e16-03ef-43aa-b870-b58a6fe4d837",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-3.png?alt=media&token=40a1374d-8903-41a4-9ade-f2396e29ca89"
+            
+          ],
+          "description": "Ashwagandha, or Withania, is used for stress relief, boosting energy, and cognitive health. It thrives in well-drained soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Low",
+          "season": "Summer",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Stress Relief"]
+        },
+    {
+          "hindiName": "Yarrow",
+          "englishName": "Achillea",
+          "botanicalName": "Achillea millefolium",
+          "uses": ["Wound Healing", "Digestive Health", "Anti-inflammatory"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-1.png?alt=media&token=795ccf78-4070-4658-8794-bd8df19e0080",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-2.png?alt=media&token=660adf0a-2b24-45d0-8f3a-8b49270461ce",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-3.png?alt=media&token=a6989278-9b82-4282-8984-db46d87a4175"
+            
+          ],
+          "description": "Yarrow is known for its wound healing, digestive health, and anti-inflammatory properties. It grows well in well-drained soil with full sun exposure.",
+          "type": "Herb",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Full Sun",
+          "wateringFrequency": "Medium",
+          "season": "Summer",
+          "region": "Temperate",
+          "tags": ["Medicinal", "Wound Healing"]
+        },
+{
+          "hindiName": "Ginger",
+          "englishName": "Ginger",
+          "botanicalName": "Zingiber officinale",
+          "uses": ["Digestive Health", "Anti-nausea", "Anti-inflammatory"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-1.png?alt=media&token=5934a1d2-ffe8-4e7b-a395-311b61c83303",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-2.png?alt=media&token=2044f901-ae05-44ed-a383-b96b5cfdb6c5",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-3.png?alt=media&token=daebd0e8-ed56-41b8-a023-8689977cbc1f"
+            
+          ],
+          "description": "Ginger is valued for its digestive health benefits, anti-nausea properties, and anti-inflammatory effects. It grows best in warm, well-drained soil with partial shade.",
+          "type": "Root",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Digestive Health"]
+        },
+    {
+          "hindiName": "Turmeric",
+          "englishName": "Turmeric",
+          "botanicalName": "Curcuma longa",
+          "uses": ["Anti-inflammatory", "Digestive Health", "Skin Care"],
+          "imageUrls": [
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-1.png?alt=media&token=c6efa5c0-0d8a-4403-9b86-6d2fe824a651",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-2.png?alt=media&token=f87d86d5-2f31-4bbe-b34b-bbdb2ff38dd6",
+            "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-3.png?alt=media&token=b74f54f7-7a19-4bbc-9150-4258bfe2036d"
+          ],
+          "description": "Turmeric is known for its anti-inflammatory, digestive health, and skin care benefits. It thrives in warm, well-drained soil with partial shade.",
+          "type": "Root",
+          "soilType": ["Loamy", "Sandy"],
+          "sunlight": "Partial Shade",
+          "wateringFrequency": "Medium",
+          "season": "Winter",
+          "region": "Tropical",
+          "tags": ["Medicinal", "Skin Care"]
+        }
+      ,
        {
           "hindiName": "Kalmegh",
           "englishName": "Green Chiretta",
@@ -1183,168 +1344,8 @@
                   "season": "Monsoon",
                   "region": "Tropical",
                   "tags": ["Medicinal", "Hair Health"]
-                },
-               {
-                  "hindiName": "Neem",
-                  "englishName": "Neem Tree",
-                  "botanicalName": "Azadirachta indica",
-                  "uses": ["Skin Care", "Antiseptic", "Dental Health"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-1.png?alt=media&token=9bc3c764-cfb3-41e3-b166-f1783781194d",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-2.png?alt=media&token=416a9063-dba8-497e-9fec-63a8c04abab8",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID68-3.png?alt=media&token=afe35e70-2b97-46c1-89c6-f6108aae5118"
-                    
-                  ],
-                  "description": "Neem is valued for its skin care, antiseptic, and dental health benefits. It thrives in well-drained soil with full sun exposure.",
-                  "type": "Tree",
-                  "soilType": ["Sandy", "Loamy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Low",
-                  "season": "Winter",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Skin Care"]
-                },
-           {
-                  "hindiName": "Guggul",
-                  "englishName": "Commiphora",
-                  "botanicalName": "Commiphora wightii",
-                  "uses": ["Joint Health", "Cholesterol Management", "Anti-inflammatory"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-1.png?alt=media&token=5a03635b-b873-4e70-b706-3174abdd48e1",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-2.png?alt=media&token=519f8b63-3ef8-4663-986b-70e6a3576bc9",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID69-3.png?alt=media&token=44b1350b-8642-4ddd-aa17-27e63c8a147b"
-                    
-                  ],
-                  "description": "Guggul is known for its benefits in joint health, cholesterol management, and anti-inflammatory effects. It grows best in dry, well-drained soil with full sun exposure.",
-                  "type": "Shrub",
-                  "soilType": ["Sandy", "Loamy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Low",
-                  "season": "Summer",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Joint Health"]
-                },
-           {
-                  "hindiName": "Methi",
-                  "englishName": "Fenugreek",
-                  "botanicalName": "Trigonella foenum-graecum",
-                  "uses": ["Digestive Health", "Blood Sugar Regulation", "Lactation Support"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-1.png?alt=media&token=d55bf341-d53d-4065-9ea8-39fb79a4d52d",
-                    "https://example.com/images/methi2.jpghttps://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-2.png?alt=media&token=4d4c4ecf-690d-4a83-b2ba-2ba3ed89fa1f",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID70-3.png?alt=media&token=474ed016-e1ce-403e-b7dc-73ae0d84fc98"
-                    
-                  ],
-                  "description": "Methi, or Fenugreek, is used for its digestive health benefits, blood sugar regulation, and lactation support. It grows well in well-drained soil with full sun exposure.",
-                  "type": "Herb",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Medium",
-                  "season": "Winter",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Digestive Health"]
-                },
-               
-     {
-                  "hindiName": "Tulsi",
-                  "englishName": "Holy Basil",
-                  "botanicalName": "Ocimum sanctum",
-                  "uses": ["Immunity Boost", "Stress Relief", "Respiratory Health"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-1.png?alt=media&token=2cf73422-3cbb-457c-9fe3-3c06b22266d8",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-2.png?alt=media&token=4fdc42cf-414f-46de-a38a-bdc21a2e43aa",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID71-3.png?alt=media&token=5a56cf6f-d1d0-4b97-99a7-d97dc3a2a2b2"
-                    
-                  ],
-                  "description": "Tulsi, or Holy Basil, is renowned for boosting immunity, relieving stress, and supporting respiratory health. It grows well in well-drained soil with full sun exposure.",
-                  "type": "Herb",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Medium",
-                  "season": "Monsoon",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Immunity Boost"]
-                },
-               {
-                  "hindiName": "Ashwagandha",
-                  "englishName": "Withania",
-                  "botanicalName": "Withania somnifera",
-                  "uses": ["Stress Relief", "Energy Boost", "Cognitive Health"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-1.png?alt=media&token=7d78605b-f2c7-49f2-b6f5-b1740a0338e7",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-2.png?alt=media&token=1fcc0e16-03ef-43aa-b870-b58a6fe4d837",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID72-3.png?alt=media&token=40a1374d-8903-41a4-9ade-f2396e29ca89"
-                    
-                  ],
-                  "description": "Ashwagandha, or Withania, is used for stress relief, boosting energy, and cognitive health. It thrives in well-drained soil with full sun exposure.",
-                  "type": "Herb",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Low",
-                  "season": "Summer",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Stress Relief"]
-                },
-            {
-                  "hindiName": "Yarrow",
-                  "englishName": "Achillea",
-                  "botanicalName": "Achillea millefolium",
-                  "uses": ["Wound Healing", "Digestive Health", "Anti-inflammatory"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-1.png?alt=media&token=795ccf78-4070-4658-8794-bd8df19e0080",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-2.png?alt=media&token=660adf0a-2b24-45d0-8f3a-8b49270461ce",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID73-3.png?alt=media&token=a6989278-9b82-4282-8984-db46d87a4175"
-                    
-                  ],
-                  "description": "Yarrow is known for its wound healing, digestive health, and anti-inflammatory properties. It grows well in well-drained soil with full sun exposure.",
-                  "type": "Herb",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Full Sun",
-                  "wateringFrequency": "Medium",
-                  "season": "Summer",
-                  "region": "Temperate",
-                  "tags": ["Medicinal", "Wound Healing"]
-                },
- {
-                  "hindiName": "Ginger",
-                  "englishName": "Ginger",
-                  "botanicalName": "Zingiber officinale",
-                  "uses": ["Digestive Health", "Anti-nausea", "Anti-inflammatory"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-1.png?alt=media&token=5934a1d2-ffe8-4e7b-a395-311b61c83303",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-2.png?alt=media&token=2044f901-ae05-44ed-a383-b96b5cfdb6c5",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID74-3.png?alt=media&token=daebd0e8-ed56-41b8-a023-8689977cbc1f"
-                    
-                  ],
-                  "description": "Ginger is valued for its digestive health benefits, anti-nausea properties, and anti-inflammatory effects. It grows best in warm, well-drained soil with partial shade.",
-                  "type": "Root",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Partial Shade",
-                  "wateringFrequency": "Medium",
-                  "season": "Winter",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Digestive Health"]
-                },
-            {
-                  "hindiName": "Turmeric",
-                  "englishName": "Turmeric",
-                  "botanicalName": "Curcuma longa",
-                  "uses": ["Anti-inflammatory", "Digestive Health", "Skin Care"],
-                  "imageUrls": [
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-1.png?alt=media&token=c6efa5c0-0d8a-4403-9b86-6d2fe824a651",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-2.png?alt=media&token=f87d86d5-2f31-4bbe-b34b-bbdb2ff38dd6",
-                    "https://firebasestorage.googleapis.com/v0/b/ayurvan-b2bf2.appspot.com/o/plantsImages%2FDocumnentID75-3.png?alt=media&token=b74f54f7-7a19-4bbc-9150-4258bfe2036d"
-                  ],
-                  "description": "Turmeric is known for its anti-inflammatory, digestive health, and skin care benefits. It thrives in warm, well-drained soil with partial shade.",
-                  "type": "Root",
-                  "soilType": ["Loamy", "Sandy"],
-                  "sunlight": "Partial Shade",
-                  "wateringFrequency": "Medium",
-                  "season": "Winter",
-                  "region": "Tropical",
-                  "tags": ["Medicinal", "Skin Care"]
                 }
-              
+          
       ]
               }
                       
