@@ -1,12 +1,13 @@
 import 'package:ayurvan/core/colors.dart';
 import 'package:ayurvan/models/3d_model.dart';
-import 'package:ayurvan/screens/3d_plant_details.dart';
+
 import 'package:ayurvan/screens/ayushAi.dart';
+import 'package:ayurvan/screens/chatbotscreen.dart';
 import 'package:ayurvan/screens/favorite_screen.dart';
 import 'package:ayurvan/screens/home_page.dart';
 import 'package:ayurvan/screens/plant_overview.dart';
 import 'package:ayurvan/screens/profile_screen.dart';
-import 'package:ayurvan/screens/revolving_images.dart';
+
 import 'package:flutter/material.dart';
 import 'package:stylish_bottom_bar/stylish_bottom_bar.dart';
 
@@ -22,10 +23,9 @@ class _Tabs extends State<Tabs> {
 
   final List<Widget> _screens = [
     const HomeScreen(),
-    
     HerbalPlantsOverview(plants: herbalPlants),
     const FavoriteScreen(),
-     const ProfileScreen()
+    const ProfileScreen()
   ];
 
   @override
@@ -57,8 +57,10 @@ class _Tabs extends State<Tabs> {
             badgePadding: const EdgeInsets.only(left: 4, right: 4),
           ),
           BottomBarItem(
-            icon: Image.asset('assets/icons/cube.png', height: 27, color: unselectedicon),
-            selectedIcon: Image.asset('assets/icons/cube.png', height: 27, color: unselectedicon),
+            icon: Image.asset('assets/icons/cube.png',
+                height: 27, color: unselectedicon),
+            selectedIcon: Image.asset('assets/icons/cube.png',
+                height: 27, color: unselectedicon),
             selectedColor: selectedicon,
             unSelectedColor: unselectedicon,
             title: const Text('3D'),
@@ -93,20 +95,21 @@ class _Tabs extends State<Tabs> {
         shape: const CircleBorder(),
         onPressed: () {
           Navigator.push(context, MaterialPageRoute(builder: (context) {
-            return const AyushAiScreen();
+            return GeminiHerbalBot();
           }));
         },
         backgroundColor: Colors.white,
         child: ClipOval(
-          child: Image.asset('assets/icons/ayushAi.jpg', fit: BoxFit.cover, height: 60),
+          child: Image.asset('assets/icons/ayushAi.jpg',
+              fit: BoxFit.cover, height: 60),
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SafeArea(
         child: SingleChildScrollView(
           child: SizedBox(
-            height: MediaQuery.of(context).size.height,
-            child: _screens[_selectedIndex]),
+              height: MediaQuery.of(context).size.height,
+              child: _screens[_selectedIndex]),
         ),
       ),
     );

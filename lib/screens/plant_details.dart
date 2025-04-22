@@ -235,7 +235,9 @@ class _PlantDetailsScreenState extends State<PlantDetailsScreen> {
                                               .viewInsets
                                               .bottom, // Handles the keyboard overlap
                                         ),
-                                        child: AddNote(plant: widget.plantdata,),
+                                        child: AddNote(
+                                          plant: widget.plantdata,
+                                        ),
                                       );
                                     },
                                   );

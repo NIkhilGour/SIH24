@@ -1,5 +1,6 @@
 import 'package:ayurvan/screens/onboarding_screen.dart';
 import 'package:ayurvan/screens/revolving_images.dart';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:get/get.dart';
@@ -11,8 +12,8 @@ import 'package:ayurvan/util/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
-       .then((value) => Get.put(AuthenticationRepo()));
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform)
+      .then((value) => Get.put(AuthenticationRepo()));
   runApp(const MyApp());
 }
 
@@ -25,10 +26,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Login Demo',
       theme: TAppTheme.lightTheme, // Your custom light theme
       darkTheme: TAppTheme.darkTheme, // Custom dark theme
-      themeMode: ThemeMode.system, // Automatically switch based on system setting
-      home: const RevolvingImages(), // Start with the SplashScreen
+      themeMode:
+          ThemeMode.system, // Automatically switch based on system setting
+      home: RevolvingImages(), // Start with the SplashScreen
     );
   }
 }
-
-

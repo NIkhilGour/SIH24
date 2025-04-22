@@ -174,6 +174,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Expanded(
                 child: ListView.builder(
+              
                   itemCount: filteredPlants!.length,
                   itemBuilder: (context, index) {
                     return InkWell(
